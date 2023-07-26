@@ -1,0 +1,19 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    groupId: "com.android.support"
+    artifactId: "multidex"
+    version: "1.0.3"
+  }
+  digests {
+    sha256: "\354\366\t\205r\342;QU\272\263\271\250+/\321S\016\332ll\025wE\340\365(|f\356\306\f"
+  }
+}
+library_dependencies {
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 0
+}

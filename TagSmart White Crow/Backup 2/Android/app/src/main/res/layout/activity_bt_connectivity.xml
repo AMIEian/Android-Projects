@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EncodingEPCActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout  app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="BTConnectivityActivity">
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.1"
+            android:orientation="vertical">
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="User Action :"
+                    android:fontFamily="@font/roboto"
+                    android:textColor="@color/iridium"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/action_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:fontFamily="@font/roboto"
+                    android:textColor="@color/iridium"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Message :"
+                    android:fontFamily="@font/roboto"
+                    android:textColor="@color/iridium"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/message_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:fontFamily="@font/roboto"
+                    android:textColor="@color/iridium"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Connected Device :"
+                    android:fontFamily="@font/roboto"
+                    android:textColor="@color/iridium"
+                    android:textSize="12sp" />
+
+                <LinearLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_margin="4dp">
+
+                    <TextView
+                        android:id="@+id/connected_device_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:fontFamily="@font/roboto"
+                        android:textColor="@color/iridium"
+                        android:layout_weight="1"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/bt_disconnect"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="invisible"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto"
+                        android:background="@drawable/button_blue_selector"
+                        android:textColor="@color/yellow"
+                        android:layout_weight="2"
+                        android:text="Disconnect"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+
+                <Button
+                    android:id="@+id/bt_enable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="4dp"
+                    android:fontFamily="@font/roboto"
+                    android:background="@drawable/button_blue_selector"
+                    android:textColor="@color/rainbow_white"
+                    android:text="Bluetooth ON"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/bt_disable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Bluetooth Off"
+                    android:layout_margin="4dp"
+                    android:fontFamily="@font/roboto"
+                    android:background="@drawable/button_blue_selector"
+                    android:textColor="@color/rainbow_white"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/bt_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Get BT State"
+                    android:fontFamily="@font/roboto"
+                    android:background="@drawable/button_blue_selector"
+                    android:textColor="@color/rainbow_white"
+                    android:textSize="12sp"
+                    android:layout_margin="4dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+
+                <Button
+                    android:id="@+id/bt_scan"
+                    android:layout_gravity="fill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Start Scan"
+                    android:fontFamily="@font/roboto"
+                    android:background="@drawable/button_blue_selector"
+                    android:textColor="@color/rainbow_white"
+                    android:textSize="12sp"
+                    android:layout_margin="4dp"/>
+
+                <Button
+                    android:id="@+id/bt_stop_scan"
+                    android:layout_gravity="fill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Stop Scan"
+                    android:fontFamily="@font/roboto"
+                    android:background="@drawable/button_blue_selector"
+                    android:textColor="@color/rainbow_white"
+                    android:textSize="12sp"
+                    android:layout_margin="4dp"/>
+
+                <ProgressBar
+                    android:id="@+id/scan_progress"
+                    android:layout_width="20dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dip"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:layout_gravity="fill"
+                    android:id="@+id/bt_remove_pair"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Remove All paired"
+                    android:fontFamily="@font/roboto"
+                    android:background="@drawable/button_blue_selector"
+                    android:textColor="@color/rainbow_white"
+                    android:textSize="10sp"
+                    android:layout_margin="4dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/device_list"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clickable="true" >
+            </ListView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

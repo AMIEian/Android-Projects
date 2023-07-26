@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="0.65"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Filter Categories"
+            android:textColor="@color/rainbow_white"
+            android:fontFamily="@font/roboto"
+            android:layout_marginLeft="4dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:textSize="12sp"/>
+        <Button
+            android:id="@+id/applyFilterBtn"
+            android:layout_weight="0.3"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="4dp"
+            android:text="Apply Filter"
+            android:background="@color/colorAccent"
+            android:textSize="14sp"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/rainbow_white"/>
+        <Button
+            android:id="@+id/closeFilterBtn"
+            android:layout_weight="0.05"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:layout_margin="4dp"
+            android:text="X"
+            android:background="@null"
+            android:textSize="14sp"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/rainbow_white"/>
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Category"
+            android:textColor="@color/iridium"
+            android:fontFamily="@font/roboto"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:padding="4dp"
+            android:layout_margin="4dp"/>
+
+        <ListView
+            android:id="@+id/categoryMainList"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="4dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Subcategory"
+            android:textColor="@color/iridium"
+            android:fontFamily="@font/roboto"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:padding="4dp"
+            android:layout_margin="4dp"/>
+        <Spinner
+            android:id="@+id/categorySelection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/rainbow_white"
+            android:layout_margin="4dp"/>
+        <ListView
+            android:id="@+id/subcategoryList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="4dp"/>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,54 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnnewCounter"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorPrimary"
+        android:text="Add Daily Sale/Activities"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:drawableLeft="@drawable/ic_add_circle_outline_black_24dp"
+        android:drawablePadding="10dp"
+        android:gravity="left|center_vertical"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btnupcounter"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Daily Sale/Activities Details"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorPrimary"
+        android:drawableLeft="@drawable/ic_event_note_black_24dp"
+        android:drawablePadding="10dp"
+        android:gravity="left|center_vertical"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btnnewsalecounter"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="New Sale Place(POS)"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorPrimary"
+        android:drawableLeft="@drawable/ic_account_box_black_24dp"
+        android:drawablePadding="10dp"
+        android:gravity="left|center_vertical"
+        android:padding="10dp"/>
+</LinearLayout>

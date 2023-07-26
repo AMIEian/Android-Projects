@@ -1,0 +1,7 @@
+#Wed Apr 21 17:05:16 IST 2021
+base.0=D\:\\Study Material\\Android Projects\\Manache Shlok\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=D\:\\Study Material\\Android Projects\\Manache Shlok\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes2.dex

@@ -1,0 +1,4 @@
+#Wed Jan 10 16:51:28 IST 2018
+base.0=E\:\\Study Material\\Android Projects\\HanumanAradhana\\app\\build\\intermediates\\transforms\\dex\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

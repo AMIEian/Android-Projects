@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8faadc</color>
+    <color name="colorPrimaryDark">#758fbf</color>
+    <color name="colorAccent">#eaa02d</color>
+    <color name="lighter_green">#dcf58f</color>
+    <color name="light_green">#c1e25e</color>
+    <color name="green">#a3c639</color>
+    <color name="dark_green">#85a71d</color>
+    <color name="darker_green">#648306</color>
+    <color name="peach">#fad6a5</color>
+
+    <color name="sea_green">#1d8b82</color>
+    <color name="yellow">#ff0</color>
+    <color name="blue">#33b5e5</color>
+    <color name="purple">#60308c</color>
+
+    <color name="paper_background">#ffe3aa</color>
+    <color name="paper_line">#aa8539</color>
+
+    <color name="rainbow_red">#bf360c</color>
+    <color name="rainbow_yellow">#f9ba15</color>
+    <color name="rainbow_green">#8eac00</color>
+    <color name="rainbow_blue">#127a97</color>
+    <color name="rainbow_purple">#452b72</color>
+
+    <color name="rainbow_white">#FFFFFF</color>
+    <color name="rainbow_silver">#C0C0C0</color>
+    <color name="rainbow_platinum">#E5E4E2</color>
+    <color name="rainbow_goose">#D1D0CE</color>
+    <color name="rainbow_cloud">#B6B6B4</color>
+
+    <color name="card_background">#ffe3aa</color>
+    <color name="kerosen">#345973</color>
+    <color name="dirty_white">#D1D0CE</color>
+    <color name="black">#000000</color>
+    <color name="white">#E5E4E2</color>
+    <color name="deep_blue">#353e53</color>
+    <color name="keypad_blue">#627296</color>
+    <color name="iridium">#3D3C3A</color>
+    <color name="row_activated">#e0e0e0</color>
+    <color name="list_header_title">#848482</color>
+    <color name="list_header_content">#B6B6B4</color>
+    <color name="list_header_content2">#E5E4E2</color>
+    <color name="colorControlActivated">#50FF4081</color>
+    <color name="colorAccentFade">#99FF4081</color>
+    <color name="colorPrimaryFade">#99283569</color>
+    <color name="captain_color">#41A317</color>
+    <color name="captain_color_light">#D1D0CE</color>
+    <color name="vicecaptain_color">#f88017</color>
+    <color name="keeper_color">#f88017</color>
+    <color name="keeper_color_light">#D1D0CE</color>
+    <color name="cyan">#489cff</color>
+    <color name="label_grey">#a8a8b2</color>
+    <color name="red">#ff0000</color>
+    <color name="orange_red">#f61504</color>
+    <color name="indiglo">#1d2f55</color>
+    <color name="grey">#4D000000</color>
+    <color name="neon_green">#39ff14</color>
+    <color name="light_blue">#eef4fe</color>
+</resources>

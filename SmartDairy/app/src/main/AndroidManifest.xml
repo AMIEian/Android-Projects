@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vsi.smart.dairy1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.sample.app.WIDGET_PERMISSION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo11"
+        android:label="@string/app_name"
+        android:protectionLevel="normal"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme1"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".NewsDetails"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".AddDailySale"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".options"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Conter_report"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Complaint"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Searchr"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".DealerOrder"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Complaintview"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Productc"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Counterc"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Counternewsale"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Orderstatus"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Menu_Retail_Sale"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".List_Sale_Details"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Counterdata"
+            android:theme="@style/CustomTheme" />
+        <activity android:name=".GetCurrentLocation" />
+        <activity
+            android:name=".DelerOrderupdate"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".SaleOrderUpdate"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Notificationlist"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Notificationdetail"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Dashboard"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".SansthaMilkData"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".NewsList"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Updatepassword"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Aboutus"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Paymentreport"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Tabulardashboard"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Dashboard_santsha"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Milkreportlist"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Customermilkcollection"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Sansthamilkcollection"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".PaymentList"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Jobnewsdetails"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Jobnewslist"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Healthnewsdetails"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Healthnewslist"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Ksknewsdetails"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Ksknewslist"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Newsoptions"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Converters"
+            android:theme="@style/CustomTheme" />
+        <activity android:name=".Solidcompare" />
+        <activity android:name=".Areacompare" />
+        <activity android:name=".Liquidcompare" />
+        <activity android:name=".Distancecompare" />
+        <activity
+            android:name=".Statementlist"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Statementdetails"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".GridMenu"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Chapterlist"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Chapterdetails"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Addmilkentry"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Addchalan"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Addupdatechalan"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Addchalanlist"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Addpashusale"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Addupdatepashusale"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Addpashusalelist"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Addpashupurchase"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Addupdatepashupurchase"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Addpashupurchaselist"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Addmilkentrylist"
+            android:theme="@style/CustomTheme" />
+        <activity android:name=".Summary2" />
+        <activity android:name=".Summary1" />
+        <activity
+            android:name=".checkcode"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Mainoptions"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".Custlist"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".UploadMilkPurchaseExcel"
+            android:theme="@style/CustomTheme" />
+        <activity android:name=".Ratelist" />
+        <activity android:name=".ShowPashukhadyaActivity" />
+        <activity android:name=".ShowDeductionsActivity" />
+        <activity android:name=".CowManagementActivity"></activity>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/loginpage" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <service android:name=".RegisterMeToFcm">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".MessageFromFcm">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,122 @@
+package nitin.sangale.androidgames.numberdumber;
+
+import java.util.List;
+
+import com.badlogic.androidgames.framework.Game;
+import com.badlogic.androidgames.framework.Graphics;
+import com.badlogic.androidgames.framework.Input.TouchEvent;
+import com.badlogic.androidgames.framework.Screen;
+
+public class MainMenuScreen extends Screen 
+	{
+    	public MainMenuScreen(Game game) 
+    		{
+    			super(game);  
+    		}   
+
+    	@Override public void update(float deltaTime) 
+    		{
+    			Graphics g = game.getGraphics();
+    			List<TouchEvent> touchEvents = game.getInput().getTouchEvents();
+    			game.getInput().getKeyEvents();       
+        
+    			int len = touchEvents.size();
+    			for(int i = 0; i < len; i++) 
+    				{
+    					TouchEvent event = touchEvents.get(i);
+    					if(event.type == TouchEvent.TOUCH_DOWN) 
+    						{
+    							if(inBounds(event, 8, g.getHeight() - 72, 64, 64)) 
+    								{
+    									Settings.soundEnabled = !Settings.soundEnabled;
+    									if(Settings.soundEnabled)
+    										Assets.click.play(1);
+    									if(!Settings.soundEnabled)
+    										{
+    											if(!Assets.startup.isStopped())
+    												Assets.startup.stop();
+    										}
+    								}
+    							
+    							if(inBounds(event, 64, 220, 192, 42) ) 
+    								{
+    									if(!Assets.startup.isStopped())
+    										Assets.startup.stop();
+    									game.setScreen(new GoalScreen(game));
+    									if(Settings.soundEnabled)
+    										Assets.click.play(1);
+    									return;
+    								}
+                
+    							if(inBounds(event, 64, 220 + 42, 192, 42) ) 
+    								{
+    									if(!Assets.startup.isStopped())
+    										Assets.startup.stop();
+    									game.setScreen(new HighscoreScreen(game));
+    									if(Settings.soundEnabled)
+    										Assets.click.play(1);
+    									return;
+    								}
+                
+    							if(inBounds(event, 64, 220 + 84, 192, 42) ) 
+    								{
+    									if(!Assets.startup.isStopped())
+    										Assets.startup.stop();
+    									game.setScreen(new HelpScreen(game));
+    									if(Settings.soundEnabled)
+    										Assets.click.play(1);
+    									return;
+    								}
+    							if(inBounds(event, 64,304 + 42, 192, 42))
+    								{
+    									if(!Assets.startup.isStopped())
+    										Assets.startup.stop();
+    									game.setScreen(new AboutScreen(game));
+    									if(Settings.soundEnabled)
+    										Assets.click.play(1);
+    									return;
+    								}
+    						}
+    				}
+    		}
+    
+    	private boolean inBounds(TouchEvent event, int x, int y, int width, int height) 
+    		{
+    			if(event.x > x && event.x < x + width - 1 && event.y > y && event.y < y + height - 1) 
+    				return true;
+    			else
+    				return false;
+    		}
+
+    	@Override public void present(float deltaTime) 
+    		{
+    			Graphics g = game.getGraphics();
+        
+    			g.drawPixmap(Assets.background, 0, 0);
+    			g.drawPixmap(Assets.logo, 32, 20);
+    			g.drawPixmap(Assets.mainMenu, 64, 220);
+    			if(Settings.soundEnabled)
+    				g.drawPixmap(Assets.buttons, 8, 408, 0, 0, 64, 64);
+    			else
+    				g.drawPixmap(Assets.buttons, 8, 408, 64, 0, 64, 64);
+    		}
+
+    	@Override public void pause() 
+			{        
+				Settings.save(game.getFileIO());
+				if(!Assets.startup.isStopped())
+					Assets.startup.pause();
+			}
+
+    	@Override public void resume() 
+			{
+		    	if(Settings.soundEnabled && !Assets.startup.isStopped())
+		    		Assets.startup.play();
+			}
+
+    	@Override public void dispose() 
+			{
+    			if(!Assets.startup.isStopped())
+    				Assets.startup.dispose();
+			}
+	}

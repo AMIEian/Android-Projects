@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+repositories {
+    maven { url 'https://maven.google.com' }
+}
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+
+    defaultConfig {
+        applicationId "nitin.sangale.androidgames.briksnsaddle"
+        minSdkVersion 14
+        targetSdkVersion 28
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            multiDexEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.google.android.gms:play-services:+'
+    implementation 'com.android.support:multidex:1.0.3'
+}

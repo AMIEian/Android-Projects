@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+    android:orientation="vertical">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+               <Button
+                   android:id="@+id/btnMilkreport"
+                   android:layout_width="250dp"
+                   android:layout_height="50dp"
+                   android:visibility="gone"
+                   android:text="Milk Collection Reports"
+                   android:textColor="#ffffff"
+                   android:textAllCaps="false"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_margin="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@color/colorPrimary"/>
+               <Button
+                   android:id="@+id/btn_payments"
+                   android:layout_width="250dp"
+                   android:layout_height="50dp"
+                   android:text="Milk Payment Reports"
+                   android:textColor="#ffffff"
+                   android:textAllCaps="false"
+                   android:visibility="gone"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_margin="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@color/colorPrimary"/>
+
+               <Button
+                   android:id="@+id/btnsankalan"
+                   android:layout_width="250dp"
+                   android:layout_height="50dp"
+                   android:text="Milk Purchase"
+                   android:visibility="gone"
+                   android:textAllCaps="false"
+                   android:textColor="#ffffff"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_margin="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@color/colorPrimary"/>
+               <Button
+                   android:id="@+id/btnsale"
+                   android:layout_width="250dp"
+                   android:layout_height="50dp"
+                   android:text="Milk Sale"
+                   android:visibility="gone"
+                   android:textAllCaps="false"
+                   android:textColor="#ffffff"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_margin="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@color/colorPrimary"/>
+               <Button
+                   android:id="@+id/btn_ledgerandbal"
+                   android:layout_width="250dp"
+                   android:layout_height="50dp"
+                   android:visibility="gone"
+                   android:text="Ledgers And Balance"
+                   android:textColor="#ffffff"
+                   android:textAllCaps="false"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_margin="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@color/colorPrimary"/>
+               <Button
+                   android:id="@+id/btnchalan"
+                   android:layout_width="250dp"
+                   android:layout_height="50dp"
+                   android:text="Voucher Entry"
+                   android:visibility="gone"
+                   android:textAllCaps="false"
+                   android:textColor="#ffffff"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_margin="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@color/colorPrimary"/>
+               <Button
+                   android:id="@+id/btnpashupurchase"
+                   android:layout_width="250dp"
+                   android:layout_height="50dp"
+                   android:visibility="gone"
+                   android:text="Inventry Purchase"
+                   android:textAllCaps="false"
+                   android:textColor="#ffffff"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_margin="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@color/colorPrimary"/>
+               <Button
+                   android:id="@+id/btnpashu"
+                   android:layout_width="250dp"
+                   android:layout_height="50dp"
+                   android:text="Inventry Sale"
+                   android:visibility="gone"
+                   android:textAllCaps="false"
+                   android:textColor="#ffffff"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_margin="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@color/colorPrimary"/>
+
+               <Button
+                   android:id="@+id/btncustlist"
+                   android:layout_width="250dp"
+                   android:layout_height="50dp"
+                   android:text="Customer List"
+                   android:textAllCaps="false"
+                   android:textColor="#ffffff"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_margin="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@color/colorPrimary"/>
+
+               <Button
+                   android:id="@+id/btnratelist"
+                   android:layout_width="250dp"
+                   android:layout_height="50dp"
+                   android:text="Rate Chart"
+                   android:textAllCaps="false"
+                   android:textColor="#ffffff"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_margin="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@color/colorPrimary"/>
+               <Button
+                   android:id="@+id/btnitemlist"
+                   android:layout_width="250dp"
+                   android:layout_height="50dp"
+                   android:text="Item List"
+                   android:textAllCaps="false"
+                   android:textColor="#ffffff"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_margin="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@color/colorPrimary"/>
+               <Button
+                   android:id="@+id/btnledgerlist"
+                   android:layout_width="250dp"
+                   android:layout_height="50dp"
+                   android:text="Ledger List"
+                   android:textAllCaps="false"
+                   android:textColor="#ffffff"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_margin="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@color/colorPrimary"/>
+               <Button
+                   android:id="@+id/btnuploadmcollectonexcel"
+                   android:layout_width="250dp"
+                   android:layout_height="50dp"
+                   android:text="Upload Milk Purchase Excel"
+                   android:textAllCaps="false"
+                   android:textColor="#ffffff"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_margin="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@color/colorPrimary"/>
+               <Button
+                   android:id="@+id/btn_aboutUs"
+                   android:layout_width="250dp"
+                   android:layout_height="50dp"
+                   android:text="About Us"
+                   android:visibility="gone"
+                   android:textColor="#ffffff"
+                   android:textAllCaps="false"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_margin="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@color/colorPrimary"/>
+               <Button
+                   android:id="@+id/btnNotification"
+                   android:layout_width="250dp"
+                   android:layout_height="50dp"
+                   android:text="Notifications"
+                   android:visibility="gone"
+                   android:textColor="#ffffff"
+                   android:textAllCaps="false"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_margin="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@color/colorPrimary"/>
+               <Button
+                   android:id="@+id/btnNewsfeed"
+                   android:layout_width="250dp"
+                   android:layout_height="50dp"
+                   android:text="News Updats"
+                   android:textColor="#ffffff"
+                   android:visibility="gone"
+                   android:textAllCaps="false"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_margin="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@color/colorPrimary"/>
+               <Button
+                   android:id="@+id/btnConverters"
+                   android:layout_width="250dp"
+                   android:layout_height="50dp"
+                   android:text="Converter"
+                   android:visibility="gone"
+                   android:textColor="#ffffff"
+                   android:textAllCaps="false"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_margin="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@color/colorPrimary"/>
+               <Button
+                   android:id="@+id/btncomplaint"
+                   android:layout_width="250dp"
+                   android:layout_height="50dp"
+                   android:text="Complaint"
+                   android:visibility="gone"
+                   android:textAllCaps="false"
+                   android:textColor="#ffffff"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_margin="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@color/colorPrimary"/>
+
+           </LinearLayout>
+
+           </RelativeLayout>
+
+   </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

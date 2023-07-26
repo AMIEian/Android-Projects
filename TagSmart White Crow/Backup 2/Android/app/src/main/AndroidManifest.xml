@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="sysnotion.tagid.tagsmart">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".SerialCheckingEPCActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Checking"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan"></activity>
+        <activity
+            android:name=".CheckingEPCActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Checking"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".RNDActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".PickupMoveActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Ecommerce Picking"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".SerialPickupMoveActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Ecommerce Picking"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".PickupSearchActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Ecommerce Picking"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".SerialPickupSearchActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Ecommerce Picking"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".PickupActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Ecommerce Picking"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".ReplenishmentMoveActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Replenishment"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".SerialReplenishmentMoveActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Replenishment"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".ReplenishmentSearchActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Replenishment"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".SerialReplenishmentSearchActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Replenishment"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".ReplenishmentActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Replenishment"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".InwardStockSummaryActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Inward Goods"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".AuditStockTakeSummary"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Inventory"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".BTMovementActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Move Item"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".MovingSummaryActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Move Item"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".SerialMovementActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Move Item"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".SessionActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Inventory"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".BTStockTakeASummaryActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Inventory"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".SerialStockTakeASummaryActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Inventory"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".SerialProcessMovementActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Move Item"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".SerialProcessInwardDataActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Inward Goods"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".SerialVerifyTagActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Verify Tag"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".SerialTagInformationActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Tag Information"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".SerialLocationScanActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Search For Item"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".SerialSearchItemActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Search For Item"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".SerialInventoryStockTakeBActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Inventory"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".SerialInventoryStockTakeAActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Inventory"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".ProcessInwardDataActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Inward Goods"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".InwardDataActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Inward Goods"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".ProcessMovementActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Move Item"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity android:name=".DataImporterMovementActivity" />
+        <activity
+            android:name=".MovementActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Move Item"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".MovementDashboardActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Movement Dashboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".SoundManagerActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Sound Manager"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".VerifyTagActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Verify Tag"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".TagInformationActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Tag Information"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".LocationScanActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Search For Item"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".SearchItemActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Search For Item"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".SearchDashboardActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Item Information"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".SearchDataImporterActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".InventoryStockTakeBActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Inventory"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".StockTakeBAreaActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Inventory"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".StockTakeOptionBCategoryActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Inventory"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".InventoryStockTakeAActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Inventory"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".StockTakeAAreaActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Inventory"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".StockTakeOptionACategoryActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Inventory"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".DataImporterActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".TCPActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".SerialEncodingEPCActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Encoding"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".BTConnectivityActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Bluetooth Manager"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".EncodingEPCActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Encoding"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".HomeActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".MediatorActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".receiver.RFIDReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="kr.co.bluebird.android.sled.action.SLED_ATTACHED" />
+                <action android:name="kr.co.bluebird.android.sled.action.SLED_DETACHED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".stopwatch.StopwatchService" />
+    </application>
+    <uses-feature android:name="android.hardware.usb.accessory" />
+
+    <uses-feature android:name="android.hardware.usb.host" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

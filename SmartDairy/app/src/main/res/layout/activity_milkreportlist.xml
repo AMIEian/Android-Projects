@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btnMilkCollection"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary"
+                android:text="वयक्तिक रिपोर्ट"
+                android:textAllCaps="false"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btnCustomerWise"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="कस्टमर प्रमाणे रिपोर्ट"
+                android:textColor="#ffffff"
+                android:textAllCaps="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/colorPrimary"/>
+            <Button
+                android:id="@+id/btnSansthaCollectionRegister"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="संस्था संकलन रजिस्टर"
+                android:textColor="#ffffff"
+                android:textAllCaps="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/colorPrimary"/>
+            <Button
+                android:id="@+id/btnSansthaPaymentRegister"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="संस्था पेमेंट रजिस्टर"
+                android:textColor="#ffffff"
+                android:textAllCaps="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/colorPrimary"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

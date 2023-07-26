@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Study Material/Android Projects/tagsmart_ethnicity/app/src/main/res/layout/activity_bt_connectivity.xml" value="0.2477355072463768" />
+        <entry key="..\:/Study Material/Android Projects/tagsmart_ethnicity/app/src/main/res/layout/activity_bt_movement.xml" value="0.2477355072463768" />
+        <entry key="..\:/Study Material/Android Projects/tagsmart_ethnicity/app/src/main/res/layout/activity_data_importer.xml" value="0.25" />
+        <entry key="..\:/Study Material/Android Projects/tagsmart_ethnicity/app/src/main/res/layout/activity_data_importer_movement.xml" value="0.25" />
+        <entry key="..\:/Study Material/Android Projects/tagsmart_ethnicity/app/src/main/res/layout/activity_encoding_epc.xml" value="0.25" />
+        <entry key="..\:/Study Material/Android Projects/tagsmart_ethnicity/app/src/main/res/layout/activity_forgot_password.xml" value="0.264" />
+        <entry key="..\:/Study Material/Android Projects/tagsmart_ethnicity/app/src/main/res/layout/activity_home.xml" value="0.2477355072463768" />
+        <entry key="..\:/Study Material/Android Projects/tagsmart_ethnicity/app/src/main/res/layout/activity_login.xml" value="0.24230072463768115" />
+        <entry key="..\:/Study Material/Android Projects/tagsmart_ethnicity/app/src/main/res/layout/activity_main.xml" value="0.12708333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<resources>
+    <array name="colors_hex_code">
+        <item>#1169ef</item>
+        <item>#2375f1</item>
+        <item>#3680f2</item>
+        <item>#488cf3</item>
+        <item>#5a98f4</item>
+        <item>#6da3f5</item>
+        <item>#7faff7</item>
+        <item>#92baf8</item>
+        <item>#a4c6f9</item>
+        <item>#b6d1fa</item>
+        <item>#c9ddfb</item>
+        <item>#dbe9fd</item>
+        <item>#eef4fe</item>
+    </array>
+
+    <string name="app_name">TagSmart</string>
+
+</resources>

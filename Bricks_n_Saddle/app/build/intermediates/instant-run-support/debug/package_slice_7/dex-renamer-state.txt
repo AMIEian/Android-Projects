@@ -1,0 +1,4 @@
+#Thu Jan 04 16:33:43 IST 2018
+base.0=E\:\\Study Material\\libGdx Games\\Bricks_n_Saddle\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+path.0=classes.dex
+renamed.0=classes.dex

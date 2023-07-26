@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nitin.sangale.haripath"
+    android:versionCode="12"
+    android:versionName="6.4" >
+
+    <uses-sdk android:targetSdkVersion="31" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="nitin.sangale.haripath.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="nitin.sangale.haripath.StartHaripathActivity"
+            android:label="@string/title_activity_start_haripath"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="nitin.sangale.haripath.AboutActivity"
+            android:label="@string/title_activity_about" android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+                  android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+
+        <meta-data android:name="com.google.android.gms.version"
+                   android:value="@integer/google_play_services_version" />
+        </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+</manifest>

@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Statementdetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="बिल नं.:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/Billno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_weight="3"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="बिल दिनांक:  "
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Billdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_weight="3"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="बिल विभाग:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/Group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_weight="3"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="कस्टमर:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_weight="3"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TableLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#ff14b590"
+                                android:gravity="center"
+                                android:layout_gravity="center">
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:padding="5dp"
+                                    android:layout_gravity="center"
+                                    android:gravity="center">
+                                    <TextView
+                                        android:layout_gravity="center"
+                                        android:text="मालाचे नाव"
+                                        android:textColor="#ffffff"
+                                        android:textSize="15sp" />
+                                    <TextView
+                                        android:layout_marginLeft="15dp"
+                                        android:text="नग"
+                                        android:textColor="#ffffff"
+                                        android:textSize="15sp" />
+                                    <TextView
+                                        android:layout_marginLeft="15dp"
+                                        android:text="दर"
+                                        android:textColor="#ffffff"
+                                        android:textSize="15sp" />
+                                    <TextView
+                                        android:layout_marginLeft="35dp"
+                                        android:text="CGST"
+                                        android:textColor="#ffffff"
+                                        android:textSize="15sp" />
+                                    <TextView
+                                        android:layout_marginLeft="15dp"
+                                        android:text="SGST"
+                                        android:textColor="#ffffff"
+                                        android:textSize="15sp" />
+                                    <TextView
+                                        android:layout_marginLeft="15dp"
+                                        android:text="Disc"
+                                        android:textColor="#ffffff"
+                                        android:textSize="15sp" />
+                                    <TextView
+                                        android:layout_marginLeft="15dp"
+                                        android:text="Discamt"
+                                        android:textColor="#ffffff"
+                                        android:textSize="15sp" />
+                                    <TextView
+                                        android:layout_marginLeft="15dp"
+                                        android:text="रक्कम"
+                                        android:textColor="#ffffff"
+                                        android:textSize="15sp" />
+                                </TableRow>
+                            </TableLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <TableLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/table1">
+                                </TableLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="वाहतुक भाडे:"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                android:textColor="#000000"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"/>
+
+                            <TextView
+                                android:id="@+id/Transport"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15sp"
+                                android:layout_weight="3"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="इतर वसुल:"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                android:textColor="#000000"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"/>
+
+                            <TextView
+                                android:id="@+id/Freight"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15sp"
+                                android:layout_weight="3"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="एकत्रित डिस्काउंट:"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                android:textColor="#000000"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"/>
+
+                            <TextView
+                                android:id="@+id/OthDiscount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15sp"
+                                android:layout_weight="3"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="एकुण रक्कम:  "
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                android:textColor="#000000"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"/>
+
+                            <TextView
+                                android:id="@+id/BillAmount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15sp"
+                                android:layout_weight="3"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="जमा रक्कम:"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                android:textColor="#000000"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"/>
+
+                            <TextView
+                                android:id="@+id/PaidAmount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15sp"
+                                android:layout_weight="3"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="एकुण CGST:"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                android:textColor="#000000"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"/>
+
+                            <TextView
+                                android:id="@+id/TotalCGST"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15sp"
+                                android:layout_weight="3"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="एकुण SGST:"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                android:textColor="#000000"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"/>
+
+                            <TextView
+                                android:id="@+id/TotalSGST"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15sp"
+                                android:layout_weight="3"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="एकुण GST:"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                android:textColor="#000000"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"/>
+
+                            <TextView
+                                android:id="@+id/TotalGST"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15sp"
+                                android:layout_weight="3"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="राउंड रक्कम:"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                android:textColor="#000000"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"/>
+
+                            <TextView
+                                android:id="@+id/Round"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15sp"
+                                android:layout_weight="3"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

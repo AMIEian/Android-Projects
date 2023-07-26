@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Statementlist">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="कस्टमर:"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/id_lbl_pname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="15sp"
+            android:layout_weight="3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/id_lbl_ledgername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="खतावणी:"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="10dp"/>
+        <Spinner
+            android:id="@+id/spnCountercode1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:entries="@array/Salestype_arr"
+
+            android:layout_gravity="center"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="दिनांक पासुन:"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="130dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:layout_weight="2"
+            android:id="@+id/date"/>
+
+        <ImageButton
+            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:gravity="center"
+            android:id="@+id/btndate"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_date_range_black_24dp"
+            android:background="#fffafafa"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:text="दिनांक पर्यंत:"
+           android:layout_marginLeft="10dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="130dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:id="@+id/date2"
+            android:layout_weight="2"/>
+
+
+
+        <ImageButton
+            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:gravity="center"
+            android:id="@+id/btndate2"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_date_range_black_24dp"
+            android:background="#fffafafa"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="2dp">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#ff14b590"
+                            android:gravity="center"
+                            android:layout_gravity="center">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:padding="5dp"
+                                android:layout_gravity="center"
+                                android:gravity="center">
+                                <TextView
+                                    android:text="दिनांक"
+
+                                    android:textColor="#ffffff"
+                                    android:textSize="15sp" />
+                                <TextView
+                                    android:layout_marginLeft="30dp"
+                                    android:layout_gravity="center"
+                                    android:text="व्हाउचर नं."
+                                    android:textColor="#ffffff"
+                                    android:textSize="15sp" />
+                                <TextView
+                                    android:layout_marginLeft="30dp"
+                                    android:text="तपशिल"
+                                    android:textColor="#ffffff"
+                                    android:textSize="15sp" />
+                                <TextView
+                                    android:layout_marginLeft="100dp"
+                                    android:text="नावे"
+                                    android:textColor="#ffffff"
+                                    android:textSize="15sp" />
+                                <TextView
+                                    android:layout_marginLeft="30dp"
+                                    android:text="जमा"
+                                    android:textColor="#ffffff"
+                                    android:textSize="15sp" />
+                                <TextView
+                                    android:layout_marginLeft="30dp"
+                                    android:text="बॅलन्स रक्कम"
+                                    android:textColor="#ffffff"
+                                    android:textSize="15sp" />
+                                <!--TextView
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_gravity="center"
+                                    android:text="Details"
+                                    android:textColor="#ffffff"
+                                    android:textSize="15sp" /-->
+                            </TableRow>
+                        </TableLayout>
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/table1">
+                        </TableLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="एकुण नावे :"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"/>
+                        <TextView
+                            android:id="@+id/totaldebitamount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="18sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="एकुण जमा :"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"/>
+                        <TextView
+                            android:id="@+id/totalcreditamount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="18sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="बॅलन्स रक्कम :"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"/>
+                        <TextView
+                            android:id="@+id/totalbalance"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="18sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

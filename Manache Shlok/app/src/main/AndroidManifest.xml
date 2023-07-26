@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nitin.sangale.manacheshlok"
+    android:versionCode="12"
+    android:versionName="8.0" >
+
+    <uses-sdk android:targetSdkVersion="28" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="nitin.sangale.manacheshlok.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="nitin.sangale.manacheshlok.StartHaripathActivity"
+            android:label="@string/title_activity_start_haripath"
+            android:screenOrientation="landscape" >
+        </activity>
+        
+        <activity
+            android:name="nitin.sangale.manacheshlok.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+                  android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity
+            android:name="nitin.sangale.manacheshlok.SelectActivity"
+            android:label="@string/title_activity_select" 
+            android:screenOrientation="landscape" >
+        </activity>
+        
+        <meta-data android:name="com.google.android.gms.version"
+                   android:value="@integer/google_play_services_version" />
+    </application>
+    
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>  
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>

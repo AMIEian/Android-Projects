@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sale"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date:"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:id="@+id/txtdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="11/09/2017"
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sale Type:"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:id="@+id/spnsaletype"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Retail Counter Sale"
+            android:layout_gravity="center"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Code:"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:id="@+id/spnCountercode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="001"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"/>
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Counter Name:"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="#000000"-->
+            <!--android:textSize="15sp"-->
+            <!--android:layout_marginLeft="30dp"/>-->
+
+        <TextView
+            android:id="@+id/spnCountername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABC"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff14b590"
+        android:layout_marginTop="10dp">
+
+        <TableRow android:padding="10dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:text="Product"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:text="Quantity"
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:textSize="15sp"/>
+            <TextView
+                android:text="Unit"
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:textSize="15sp"/>
+
+        </TableRow>
+    </TableLayout>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:text="Pedha"
+                    android:layout_width="0dp"
+                    android:textColor="#000000"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp"/>
+                <EditText
+                    android:id="@+id/etxpr1"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:text="50"
+                    android:inputType="number"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/txtst1"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Kg"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="15sp"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:text="Soan Papadi"
+                    android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp"/>
+                <EditText
+                    android:id="@+id/etxpr2"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:text="30"
+                    android:inputType="number"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/txtst2"
+                    android:layout_weight="1"
+                    android:text="Kg"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="15sp"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:text="Barfi"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp"/>
+
+                <EditText
+                    android:id="@+id/etxpr3"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:text="20"
+                    android:inputType="number"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/txtst3"
+                    android:layout_weight="1"
+                    android:text="Kg"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="15sp"/>
+
+            </TableRow>
+
+        </TableLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnupdate"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="Update"
+            android:layout_alignParentBottom="true"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimary"/>
+
+        <Button
+            android:id="@+id/btnsave"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="Save"
+            android:layout_toRightOf="@id/btnupdate"
+            android:layout_alignParentBottom="true"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimary"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+

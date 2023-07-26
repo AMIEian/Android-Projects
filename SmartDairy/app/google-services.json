@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "623082234302",
+    "firebase_url": "https://smart-dairy-f008b.firebaseio.com",
+    "project_id": "smart-dairy-f008b",
+    "storage_bucket": "smart-dairy-f008b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623082234302:android:445de26c152276904099ef",
+        "android_client_info": {
+          "package_name": "com.vsi.smart.dairy1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623082234302-m5ekqjhguescl76q6gk5ob9b56lf0913.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvzIbyYvKPpmU4GueSbeejmTO7Pv-i1kk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623082234302-m5ekqjhguescl76q6gk5ob9b56lf0913.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

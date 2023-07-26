@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-wearable-11.8.0.aar\8f637e1356e18bb88320798369f86e7d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c86b9ff3ff60aa61ee5a9116c3c06a533ff324c9">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\b93dab8dbea8f37413eddd751c818377\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\112.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\1b96a638abec545022fdeef510979ae1\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f0f484b1a18c1676984dfea4e572ceffda2f3b78">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\114.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.8.0.aar\713dafba59ffdefd584c60f5235473d9\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c59cc4d67084879423713a416182208836c0a29f">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\e6215ed80ac05e1a0e37a709ca62f0e6\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="264ad23f9752aabecfa41115c52a25a023a08839">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-11.8.0.aar\8bb3c3b10cccf89aebfff008ea789edd\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aba77345f8bb32d4433b88c51ced5b9c5f2d4459">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\firebase-config-11.8.0.aar\c22534e1ba854296e822c590dc1143de\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d9a09584e04eb95d247f251d5d498eb57fcf6e41">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-places-11.8.0.aar\ef0d989243663a08aa9715dfe3625de3\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="38ceaeb22ef95d1a0d320ecdad9be7383d6b7923">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.8.0.aar\de4ad851affb9f13668c69c581dd61d4\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ecd0a96f6bda796eeffafb066a93c84163b72234">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\b206c482dd7cb5f600725a3dc219457b\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a7760a45a6c9f425aaa43ef391a8cf28a8bcb4a1">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-games-11.8.0.aar\db929e4a036558242f067ae01a15c304\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f4daa3cdaa8476e1e952279e9a7b3ba6ac8012fe">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\b4dff3f8d25daf48b47998bf51e8b7f3\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5ad3911825107d8dd4b017fdecebfd23c08048dd">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\5e6f9684aae1db780e181a814004a38d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="122de0d704f76d2bb5cb9db66e00fe90a0a41e78">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\e9dafbf58685c931bcb4b3c396b1f362\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="233d88c6f961d2a84758dfe27b7af61318190c7b">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.8.0.aar\b591fe227a4a715471fbadff428fe077\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7edf6db4e4e673ee210c68bc16f0ac01b3153e81">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-identity-11.8.0.aar\ec9c6b554611a146b803336bd6d54263\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="99e6d4fce7eaa92916cf26f951414b1849ce4ef5">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\7e79ec01bdfd4b00ec07d924e66f2f24\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fe3a72bee9f9eda45a5940a278fd9c1979b14a37">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\3709c09783017fd19554ab95680ccf6e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\113.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\4e59c062c2fbbac7a07ccc182b4b417e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c44026185adf61f12630db36ac6781481f559e7c">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\dcd4f61e1bbd4af0f37c7ca09b5aea1a\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\110.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-drive-11.8.0.aar\5f06a021cb735218e074770a4aa9531b\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="263d4b3cb11781467a6fa04450b1a72727c541f3">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.8.0.aar\f6aff5acc4a779ab043cf6d7d8027601\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ed04a0ae7198b0d5d0e965d6afdb0fe784dcfbee">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-11.8.0.aar\3f3f7eb3433ce7fb0c8b3bf725229c64\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2208fc058d44d1bfdd3c713185fc13c8ea333320">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-11.8.0.aar\ed1a5786438f98224493b88df44f0cf5\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e59236507fc1c595cd784ce9aa81c2c04888fd40">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\48ad58d568ef7cfcccbc19c90ff53cbf\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-11.8.0.aar\9edae0bdfbbc04f7aabbc2c2d63226d3\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="31ef45383dcfc253588a3be0b49996821ce816c5">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\40f432a635f9bbb8ede619d3f58179cc\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="16f186a432ab801268bee4a20c038c9fa35a2901">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\16ed38b4938f5a301b45401df0742e49\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d2af2ef4d987d753f2e8ee2d1480ab964d5c7273">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-plus-11.8.0.aar\df538d745c6df1bb30869592a33753a4\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fba4fe02a4ea786ef5f2e78fcbd8f51d999ad767">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.8.0.aar\615da03997a68148258d0e065ad404bc\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4e7ca65463655d11456435e37fba9500c070d05e">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\66c6cd8aded0aa29105eac32ee15d57e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="42c9659c973e311ffdb645ed057e5053e0ab5c78">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-fido-11.8.0.aar\5090d49afd8fff4cce3ef40fc1a87b19\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9b7d070f3024fde0cb59e6358f44e6c076025426">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\304b15937a859f114b6fbfca510c275c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\111.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\2d4c3a60d1dd1e96c2467d5ee6bf60e6\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c5bc72ad3250d065128d1d7514279be703e57bd0">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.8.0.aar\084ede7a60fa0db1b1815392fa700687\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cf42968b00f665dae552206e33705877b949b333">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\37c0f1edff0ea5f65cb21913c96edd65\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\109.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.8.0.aar\8b11bf38246664a9fc0b39c258f05c64\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aeca0a0ab86831ec59a54723205ce9341ac22d1b">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-awareness-11.8.0.aar\8fc57a8c5013030e2e4a87a1da38a63d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d6de702a84f62173f3a9c7a1066d81cd11120f40">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.8.0.aar\c4fbeafb50c03017776075fa092b5129\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fe94ced585bffcf3c7f788a294cc54e6785544ac">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-panorama-11.8.0.aar\c037597eeed9fb4e8f5d2e4d1d121f08\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="890ae0bc8fff3c23e8759304235e14b3a536ad80">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-25.2.0.aar\3ca5191fd8255f7e1039e095f0a29da3\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="af13a350b71b437ebf4be335d02a8f785c39b111">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.8.0.aar\3b0a8d9870aa13d7f2caab2e1d35f612\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0a23c4daa97697118d96f2b09d1dbaf9ea943d8d">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\eef92e67211daf7d751144152b061f4b\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\107.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\31f0e7a703bb936c7f953b333ff2633b\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e6aeff19a2ce1eb896557be73cb9ceb56f8d1cf3">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.8.0.aar\e2500e06cb005ca5d9f001895587be6c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="07ce024be0a1c178d857ec2fe55a99011c2ff7a2">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\582e89abb4a4f1f5d831ac29813258c6\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="24cb9bae5fbe94df0f55d87452a291b69a2f22bf">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\1bf0d77d8e121eae1b1a644fc5b01bef\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\108.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.8.0.aar\8c4e23744f21445fc28f3fcbba777860\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4b882397288de69e13ff147bdefe584cc6deb055">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\7ef757abef2854b6116446b36cc7f6d8\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4f525403c809a032a6849519be7aa8bb98146946">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\0f122c95627c593fd8e94e0c6efb3b9d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="601ebd8fa027a3dad924ffa1cb14689ced5aa436">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-fitness-11.8.0.aar\b0c7e0e3203ebc10275a1261fb05c754\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="428d38169e58cef7cfcac5776135a82cc9f6735e">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.8.0.aar\7b3d86e1b2474f78c433b4fe0b477cfb\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="541e0b6826726943a93e78613feaa4c6e7915e35">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-wallet-11.8.0.aar\f09c0f8e6fb81dace0a829ce7d29ac43\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6cdca967c6341e3e8dce1aff35352a903ad47ca7">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-11.8.0.aar\7125289d7c7e7485c71a33d749bf7810\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="08bbb31d3aae0e337647a49575c2d1f1ec7d6996">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\74123d1673bae9fc5ce6aad96d7a6277\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6746a3078625563a9eb381920f34e47ccd6bab87">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\9910fb2a774df899e8a2305718e09654\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4b7dbd963f54ff7b600c647d14ca381f110d9c9a">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-cast-11.8.0.aar\82ca5f1e7328cca160499b6361eba17b\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cd3e4eb77a31986f61e69f12fcad302618db34b7">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-instantapps-11.8.0.aar\915f1c1d8681bc66fd582734386a3e6c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b5c787f82f3e31a1c639c799d19b9999dcb4f451">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\palette-v7-25.2.0.aar\864e4f81891620ba103e084de806eb87\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9be5e957849eb82ad9addf9bdb2896de8bf5654b">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\106.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.8.0.aar\384e4cda174a4f7bb2b8d4741c57f3c8\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="67fc961d875e770ba5f9a4f4573d5b257c06424a">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\firebase-database-11.8.0.aar\a5d980a3597bc706ffb2b910c6b13604\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1b982cc8b5ab6f788690238dbe3ac3bb19f88b1a">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\759ed969e488b03b78f297e00f1f9c55\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="E:\Study Material\Android Projects\Bricks_n_Saddle\app\build\intermediates\transforms\preDex\release\64.jar" />
+    </item>
+
+</items>

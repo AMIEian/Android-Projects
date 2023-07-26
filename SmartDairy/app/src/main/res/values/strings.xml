@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">स्मार्ट डेअरी 1.0</string>
+    <string name="Month_prompt">Choose a Month</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4635245989767728/7783007780</string>
+    <string name="banner_ad_unit_id_vsidairysangamner">ca-app-pub-4635245989767728/2476254171</string>
+
+    <string-array name="Product_arr">
+        <item>PLEASE SELECT</item>
+
+    </string-array>
+
+    <string-array name="glcode_arr">
+        <item>97_अॅडव्हान्स</item>
+        <item>114_किरकोळ दुध विक्री येणे </item>
+        <item>107_पशुखाद्य विक्री येणे</item>
+        <item>28_पंधरवाडा दुध पेमेंट देणे</item>
+    </string-array>
+
+    <string-array name="Category_arr">
+        <item>Select Category</item>
+        <item>Food</item>
+        <item>Family</item>
+        <item>Health</item>
+        <item>Home Office</item>
+        <item>Insuarance</item>
+        <item>Loan</item>
+        <item>Salary</item>
+        <item>Intrest</item>
+        <item>Tax</item>
+        <item>Entertainment</item>
+        <item>Travel</item>
+        <item>Utilities</item>
+        <item>Vacation</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="Month_arr">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="wt_arr">
+        <item>PLEASE SELECT</item>
+    </string-array>
+
+    <string-array name="Code_arr">
+        <item>PLEASE SELECT</item>
+    </string-array>
+
+    <string-array name="Name_arr">
+        <item>PLEASE SELECT</item>
+    </string-array>
+
+    <string-array name="Salestype_arr">
+        <item>PLEASE SELECT</item>
+    </string-array>
+
+    <string-array name="Solid">
+        <item>Tonne</item>
+        <item>Kilogram</item>
+        <item>gram</item>
+        <item>Milligram</item>
+    </string-array>
+
+    <string-array name="Liquid">
+        <item>Liter</item>
+        <item>Milliliter</item>
+    </string-array>
+
+    <string-array name="Distance">
+        <item>Kilometer</item>
+        <item>Meter</item>
+        <item>Centimeters</item>
+        <item>Millimeters</item>
+        <item>Feet</item>
+        <item>Inches</item>
+    </string-array>
+
+    <string-array name="Area">
+        <item>Square Kilometer</item>
+        <item>Square meter</item>
+        <item>Square foot</item>
+        <item>Square inch</item>
+        <item>Acre</item>
+    </string-array>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_audit_stock_take_summary.xml" value="0.4" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_checking_epc.xml" value="0.24003623188405798" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_encoding_epc.xml" value="0.2" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_inventory_stock_take_a.xml" value="0.264" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_inward_data.xml" value="0.25" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_inward_stock_summary.xml" value="0.25" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_location_scan.xml" value="0.25" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_movement.xml" value="0.536" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_movement_dashboard.xml" value="0.25" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_process_inward_data.xml" value="0.25" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_replenishment.xml" value="0.6" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_search_dashboard.xml" value="0.21014492753623187" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_search_item.xml" value="0.264" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_serial_encoding_epc.xml" value="0.2368659420289855" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_serial_inventory_stock_take_a.xml" value="0.192481884057971" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_serial_inventory_stock_take_b.xml" value="0.24003623188405798" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_serial_replenishment_search.xml" value="0.26145833333333335" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_session.xml" value="0.4" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_stock_take_a_area.xml" value="0.4" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_stock_take_b_area.xml" value="0.4" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_stock_take_option_a_category.xml" value="0.192481884057971" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_stock_take_option_b_category.xml" value="0.264" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/activity_verify_tag.xml" value="0.25" />
+        <entry key="..\:/Study Material/Android Projects/TagSmart White Crow/Android/app/src/main/res/layout/search_item_row.xml" value="0.21422101449275363" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

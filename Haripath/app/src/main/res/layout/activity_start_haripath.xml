@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    tools:context=".StartHaripathActivity" 
+    android:orientation="vertical" 
+    android:layout_height="match_parent" 
+    android:layout_width="match_parent" 
+    xmlns:tools="http://schemas.android.com/tools" 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-6525390886417173/9299261264"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="horizontal" >
+
+    	<ImageView 
+        	android:layout_height="match_parent" 
+        	android:layout_width="wrap_content" 
+        	android:src="@drawable/blank" 
+        	android:onClick="ShowPreviousPage" 
+        	android:id="@+id/imageView1"/> 
+
+    	<ImageView
+    	    android:id="@+id/myCanvas"
+    	    android:layout_width="0dp"
+    	    android:layout_height="match_parent"
+    	    android:layout_weight="5"
+    	    android:clickable="false"
+    	    android:longClickable="false"
+    	    android:src="@drawable/p1" />
+ 
+    	<ImageView 
+        	android:layout_height="match_parent" 
+        	android:layout_width="wrap_content" 
+        	android:src="@drawable/next" 
+        	android:onClick="ShowNextPage" 
+        	android:id="@+id/imageView3"/> 
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-6525390886417173/9299261264"
+        />
+</LinearLayout>

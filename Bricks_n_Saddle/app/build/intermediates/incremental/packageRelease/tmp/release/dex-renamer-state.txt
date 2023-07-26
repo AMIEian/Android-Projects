@@ -1,0 +1,7 @@
+#Mon Oct 21 19:55:07 IST 2019
+base.0=E\:\\Study Material\\Android Projects\\Bricks_n_Saddle\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=E\:\\Study Material\\Android Projects\\Bricks_n_Saddle\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes2.dex

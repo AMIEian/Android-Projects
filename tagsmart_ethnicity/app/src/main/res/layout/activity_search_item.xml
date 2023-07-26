@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EncodingEPCActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/cardview_background"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Search Barcode"
+                android:textColor="@color/iridium"
+                android:fontFamily="@font/roboto"
+                android:textSize="12sp"
+                android:padding="4dp"
+                android:layout_margin="4dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="9dp"
+                android:padding="1dp"
+                android:orientation="horizontal"
+                android:background="@drawable/transparent_blue_border">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2">
+                    <ImageButton
+                        android:id="@+id/barcodeScanBtn"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/barcode_scanner"/>
+                </LinearLayout>
+                <EditText
+                    android:id="@+id/barcodeScanTV"
+                    android:layout_weight="0.9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="4dp"
+                    android:hint="Scan Product Barcode"
+                    android:textColor="@color/iridium"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="OR"
+                android:textColor="@color/iridium"
+                android:fontFamily="@font/roboto"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:padding="4dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Search By Text"
+                android:textColor="@color/iridium"
+                android:fontFamily="@font/roboto"
+                android:textSize="12sp"
+                android:padding="4dp"
+                android:layout_margin="4dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="9dp"
+                android:padding="1dp"
+                android:orientation="horizontal"
+                android:background="@drawable/transparent_blue_border">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2">
+                    <ImageButton
+                        android:id="@+id/textBtn"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/barcode_search"/>
+                </LinearLayout>
+                <EditText
+                    android:id="@+id/textET"
+                    android:layout_weight="0.9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="4dp"
+                    android:hint="Enter Text"
+                    android:textColor="@color/iridium"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="12sp" />
+            </LinearLayout>
+           <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:padding="4dp">
+                <TableRow android:background="@color/colorPrimary" android:padding="5dp">
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="Divison"
+                        android:textColor="@color/iridium"
+                        android:fontFamily="@font/roboto"
+                        android:textSize="12sp"/>
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="Quantity"
+                        android:textColor="@color/iridium"
+                        android:fontFamily="@font/roboto"
+                        android:textSize="12sp"/>
+                </TableRow>
+            </TableLayout>
+
+            <ListView
+                android:id="@+id/categoryList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

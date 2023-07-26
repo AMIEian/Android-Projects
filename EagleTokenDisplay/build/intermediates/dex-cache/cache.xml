@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\74948a86183586565dc9c148858fd01d\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="E:\Study Material\Android Projects\EagleTokenDisplay\app\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="E:\Study Material\Android Projects\EagleTokenDisplay\app\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\bb4c4a3b4ca5803b868008f3182178d0\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="E:\Study Material\Android Projects\EagleTokenDisplay\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\53c3104149f2243437e0df60be380ffa\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Study Material\Android Projects\EagleTokenDisplay\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\cdf05050c8875564105e7932bb9fa7cc\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="E:\Study Material\Android Projects\EagleTokenDisplay\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\cdb835dcbd678b0f0bb3fdef15231fc8\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="E:\Study Material\Android Projects\EagleTokenDisplay\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\1fad76e669ee82c258b8ef131846ad6c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="E:\Study Material\Android Projects\EagleTokenDisplay\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\74948a86183586565dc9c148858fd01d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="E:\Study Material\Android Projects\EagleTokenDisplay\app\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\cdb835dcbd678b0f0bb3fdef15231fc8\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="E:\Study Material\Android Projects\EagleTokenDisplay\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\bb4c4a3b4ca5803b868008f3182178d0\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="E:\Study Material\Android Projects\EagleTokenDisplay\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\1fad76e669ee82c258b8ef131846ad6c\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="E:\Study Material\Android Projects\EagleTokenDisplay\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\cdf05050c8875564105e7932bb9fa7cc\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="E:\Study Material\Android Projects\EagleTokenDisplay\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+
+</items>

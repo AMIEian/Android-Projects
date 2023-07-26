@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/rainbow_blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="19dp">
+    <Button
+        android:id="@+id/closeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:text="Close"
+        android:background="@color/colorPrimary"
+        android:textSize="14sp"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/rainbow_white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+            <TableRow android:background="#1169ef">
+                <TextView
+                    android:layout_weight="0.7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="EPC"
+                    android:textColor="@color/rainbow_white"
+                    android:fontFamily="@font/roboto"
+                    android:padding="4dp"
+                    android:textSize="9sp"/>
+                <TextView
+                    android:layout_weight="0.2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:text="Closeness (%)"
+                    android:textColor="@color/rainbow_white"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="9sp"/>
+                <TextView
+                    android:layout_weight="0.1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:text=""
+                    android:textColor="@color/rainbow_white"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="9sp"/>
+            </TableRow>
+        </TableLayout>
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="9dp"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_centerHorizontal="true"
+            android:max="100"
+            android:layout_height="wrap_content"
+            android:theme="@style/ProgressBarTheme"/>
+
+        <TextView
+            android:id="@+id/searchTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="4dp"
+            android:text=""/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/startScanBtn"
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:text="Start Search"
+                android:background="@color/colorPrimary"
+                android:textSize="14sp"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/rainbow_white"/>
+            <Button
+                android:id="@+id/stopScanBtn"
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="4dp"
+                android:text="Done"
+                android:background="@color/colorPrimary"
+                android:textSize="14sp"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/rainbow_white"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

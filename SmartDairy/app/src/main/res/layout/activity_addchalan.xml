@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/common_google_signin_btn_text_light_disabled"
+                android:padding="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <RadioGroup
+                        android:id="@+id/grpsendsms"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:soundEffectsEnabled="true"
+                        android:weightSum="2"
+                        android:layout_margin="10dp">
+                        <RadioButton
+                            android:id="@+id/id_mobile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Send Watsapp"
+                            android:layout_weight="1"
+                            android:textColor="@color/colorPrimary"/>
+                        <RadioButton
+                            android:id="@+id/id_web"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="No watsapp"
+                            android:checked="true"
+                            android:layout_weight="1"
+                            android:textColor="@color/colorPrimary"/>
+                    </RadioGroup>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="30dp"/>
+                <TextView
+                    android:id="@+id/txtdate"
+                    android:layout_width="190dp"
+                    android:hint="Select Date"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_height="30dp"/>
+                <ImageButton
+                    android:id="@+id/btndate"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#ffffff"
+                    app:srcCompat="@drawable/ic_date_range_black_24dp"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/common_google_signin_btn_text_light_disabled"
+                android:padding="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp">
+
+                <Spinner
+                    android:id="@+id/spncodename_gl"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:entries="@array/glcode_arr"/>
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/common_google_signin_btn_text_light_disabled"
+                android:padding="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp">
+                    <Spinner
+                        android:id="@+id/spncodename"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:entries="@array/glcode_arr"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_margin="5dp">
+
+                <Button
+                    android:id="@+id/btn_income"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Credit"
+                    android:textAllCaps="false"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    />
+                <Button
+                    android:id="@+id/btn_expences"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Debit"
+
+                    android:textAllCaps="false"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/etxnarr"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="Narration"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"/>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/etxamnt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:hint="Amount"
+                        android:layout_marginLeft="10dp"
+                        android:inputType="numberDecimal"
+                        android:textSize="15dp"/>
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical"
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:gravity="center|bottom"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/btnid_Submitbtn"
+                    android:layout_width="270dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="30dp"
+                    android:background="@color/colorPrimary"
+                    android:text="Save"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

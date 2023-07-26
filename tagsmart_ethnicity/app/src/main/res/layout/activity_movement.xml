@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EncodingEPCActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_below="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/cardview_background"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/StoreIdTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Store Id: "
+                android:textColor="@color/iridium"
+                android:fontFamily="@font/roboto"
+                android:textSize="12sp"
+                android:padding="9dp"
+                android:layout_margin="9dp"
+                android:background="@drawable/transparent_blue_border_round_corner"/>
+            <TextView
+                android:id="@+id/pscTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:fontFamily="@font/roboto"
+                android:padding="1dp"
+                android:text="Please bring the item to the desire area and then scan to move them in the inventory."
+                android:textColor="@color/iridium"
+                android:textSize="14sp"
+                android:layout_margin="9dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/psc2TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:fontFamily="@font/roboto"
+                android:padding="1dp"
+                android:layout_margin="9dp"
+                android:text="Please select which area you are moving the goods."
+                android:textColor="@color/iridium"
+                android:textSize="12sp"/>
+
+            <LinearLayout
+                android:id="@+id/buttonAreaLL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

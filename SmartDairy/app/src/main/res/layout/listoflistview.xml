@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="4dp"
+        android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="3dp"
+        android:weightSum="4">
+        <TextView
+            android:id="@+id/txtcode"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="Code"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/txtcname"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="Name"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/txtamount"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="amount"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:layout_margin="3dp">
+
+
+
+        <TextView
+            android:id="@+id/txtlit"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="liter"
+            android:textColor="#009400"
+            android:textSize="15sp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/txtfat"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="Fat"
+            android:textColor="#ff0000"
+            android:textSize="15sp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/txtsnf"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="Snf"
+            android:textColor="#0000ff"
+            android:textSize="15sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/txtrate"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="rate"
+            android:layout_marginLeft="10dp"
+            android:textColor="#C70039"
+            android:textSize="15sp"/>
+    </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+</LinearLayout>

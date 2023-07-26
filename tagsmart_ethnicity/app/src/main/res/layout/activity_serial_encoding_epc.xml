@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EncodingEPCActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_below="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/cardview_background"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/sessionCountTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Session Count: 0"
+                android:textColor="@color/iridium"
+                android:fontFamily="@font/roboto"
+                android:textSize="12sp"
+                android:padding="9dp"
+                android:layout_margin="9dp"
+                android:background="@drawable/transparent_blue_border_round_corner"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:fontFamily="@font/roboto"
+                android:padding="1dp"
+                android:text="Step 1"
+                android:textColor="@color/iridium"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="9dp"
+                android:padding="1dp"
+                android:orientation="horizontal"
+                android:background="@drawable/transparent_blue_border">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2">
+                    <ImageButton
+                        android:id="@+id/barcodeScanBtn"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/barcode_scanner"/>
+                </LinearLayout>
+                <EditText
+                    android:id="@+id/barcodeScanTV"
+                    android:layout_weight="0.9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="4dp"
+                    android:hint="Scan Product Barcode"
+                    android:textColor="@color/iridium"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="12sp"
+                    android:inputType="none"/>
+            </LinearLayout>
+            <!--
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="9dp"
+                            android:fontFamily="@font/roboto"
+                            android:padding="1dp"
+                            android:text="Step 2"
+                            android:textColor="@color/iridium"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="9dp"
+                            android:layout_marginRight="9dp"
+                            android:layout_marginBottom="9dp"
+                            android:padding="1dp"
+                            android:orientation="horizontal"
+                            android:background="@drawable/transparent_blue_border">
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.2">
+                                <ImageButton
+                                    android:id="@+id/rfidScanBtn"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/barcode_scanner"/>
+                            </LinearLayout>
+                            <EditText
+                                android:id="@+id/rfidScanTV"
+                                android:layout_weight="0.9"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:hint="Scan RFID Serial Number"
+                                android:paddingLeft="4dp"
+                                android:textColor="@color/iridium"
+                                android:fontFamily="@font/roboto"
+                                android:textSize="12sp"
+                                android:inputType="none"/>
+                        </LinearLayout>
+            -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:fontFamily="@font/roboto"
+                android:padding="1dp"
+                android:text="Step 2"
+                android:textColor="@color/iridium"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="9dp"
+                android:padding="1dp"
+                android:orientation="horizontal"
+                android:background="@drawable/transparent_blue_border">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2">
+                    <ImageButton
+                        android:id="@+id/epcScanBtn"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/epc_encode"/>
+                </LinearLayout>
+                <EditText
+                    android:id="@+id/epcNumberTV"
+                    android:layout_weight="0.9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="Read TID"
+                    android:paddingLeft="4dp"
+                    android:inputType="none"
+                    android:textColor="@color/iridium"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="19dp"
+                android:padding="1dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/encodeEPCBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:text="write Tag"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto"
+                        android:background="@drawable/button_blue_selector"
+                        android:textColor="@color/rainbow_white"
+                        android:textAlignment="center"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/ReadEPCBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Read Tag"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto"
+                        android:background="@drawable/button_blue_selector"
+                        android:textColor="@color/rainbow_white"
+                        android:textAlignment="center"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

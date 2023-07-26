@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btnDairyNews"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary"
+                android:text="दुग्ध व्यवसाय निगडीत "
+                android:drawableLeft="@drawable/ic_add_circle_outline_black_24dp"
+                android:textAllCaps="false"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btnKSKNews"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="कृषी व्यवसाय निगडीत"
+                android:textColor="#ffffff"
+                android:textAllCaps="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/ic_add_circle_outline_black_24dp"
+                android:background="@color/colorPrimary"/>
+            <Button
+                android:id="@+id/btnjob"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="सध्या सरकारी नोकरी संदर्भ"
+                android:textColor="#ffffff"
+                android:textAllCaps="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/ic_event_note_black_24dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/colorPrimary"/>
+            <Button
+                android:id="@+id/btnHealthTips"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="आरोग्य निगडीत"
+                android:textColor="#ffffff"
+                android:textAllCaps="false"
+                android:layout_gravity="center_horizontal"
+                android:drawableLeft="@drawable/ic_stat_onesignal_report"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/colorPrimary"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

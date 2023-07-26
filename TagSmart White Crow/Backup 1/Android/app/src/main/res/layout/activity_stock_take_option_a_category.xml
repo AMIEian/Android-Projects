@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EncodingEPCActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:padding="4dp">
+                    <Button
+                        android:id="@+id/expandButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_margin="4dp"
+                        android:padding="4dp"
+                        android:background="@drawable/ripple_effect_button"
+                        android:text="Expand"
+                        android:textColor="@color/rainbow_white"
+                        android:fontFamily="@font/roboto"
+                        android:textSize="12sp"/>
+                    <Button
+                        android:id="@+id/collapseButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_margin="4dp"
+                        android:padding="4dp"
+                        android:background="@drawable/ripple_effect_button"
+                        android:text="Collapse"
+                        android:textColor="@color/rainbow_white"
+                        android:fontFamily="@font/roboto"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <RelativeLayout
+            android:layout_below="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/cardview_background"
+            android:orientation="vertical">
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/StoreIdTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Store Id: "
+                android:textColor="@color/iridium"
+                android:fontFamily="@font/roboto"
+                android:textSize="12sp"
+                android:padding="9dp"
+                android:layout_margin="9dp"
+                android:background="@drawable/transparent_blue_border_round_corner"/>
+            <TextView
+                android:id="@+id/pscTV"
+                android:layout_below="@+id/StoreIdTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:fontFamily="@font/roboto"
+                android:padding="1dp"
+                android:text="Please select categories"
+                android:textColor="@color/iridium"
+                android:textSize="12sp" />
+            <LinearLayout
+                android:id="@+id/radioLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="9dp"
+                android:layout_below="@id/pscTV"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/radioSelectAllButton"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.45"
+                    android:layout_height="30dp"
+                    android:background="@drawable/button_blue_selector"
+                    android:textColor="@color/rainbow_white"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/roboto"
+                    android:text="Select All" />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="4dp"
+                    android:layout_weight="0.1"/>
+                <Button
+                    android:id="@+id/radioUnselectAllButton"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.45"
+                    android:layout_height="30dp"
+                    android:background="@drawable/button_blue_selector"
+                    android:textColor="@color/rainbow_white"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/roboto"
+                    android:text="Unselect All" />
+
+            </LinearLayout>
+            <ListView
+                android:layout_below="@+id/radioLL"
+                android:layout_above="@+id/nextBtn"
+                android:id="@+id/listView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                />
+            <Button
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/nextBtn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Next"
+                android:paddingLeft="59dp"
+                android:paddingRight="59dp"
+                android:textSize="12sp"
+                android:layout_margin="9dp"
+                android:gravity="center"
+                android:fontFamily="@font/roboto"
+                android:background="@drawable/button_blue_selector"
+                android:textColor="@color/rainbow_white"
+                android:textAlignment="center"/>
+
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

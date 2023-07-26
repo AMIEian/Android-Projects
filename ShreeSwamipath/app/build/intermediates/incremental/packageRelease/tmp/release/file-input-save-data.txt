@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Tue Apr 13 14:45:47 IST 2021
+1.base=D\:\\Study Material\\Android Projects\\ShreeSwamipath\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes2.dex
+0.set=DEX
+0.base=D\:\\Study Material\\Android Projects\\ShreeSwamipath\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+1.path=classes.dex

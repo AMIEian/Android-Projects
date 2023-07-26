@@ -1,0 +1,125 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:2:1-35:12
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\81dd81e5c703bad09afb11f5b26dd975\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\63802336920108d782d141405b9408b2\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\fc6a7723af9924832f567d6be649f0f8\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\396fce9eb8e9ccd02393e9d4531e0cc4\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\22acdeea9957a612ca4a771d0591e886\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\1952022d15f6fb143f2561f2835c4973\AndroidManifest.xml:17:1-27:12
+INJECTED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml
+application
+ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:7:5-31:19
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\81dd81e5c703bad09afb11f5b26dd975\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\81dd81e5c703bad09afb11f5b26dd975\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\63802336920108d782d141405b9408b2\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\63802336920108d782d141405b9408b2\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\fc6a7723af9924832f567d6be649f0f8\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\fc6a7723af9924832f567d6be649f0f8\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\396fce9eb8e9ccd02393e9d4531e0cc4\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\396fce9eb8e9ccd02393e9d4531e0cc4\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\22acdeea9957a612ca4a771d0591e886\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\22acdeea9957a612ca4a771d0591e886\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\1952022d15f6fb143f2561f2835c4973\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\1952022d15f6fb143f2561f2835c4973\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:10:9-41
+	android:icon
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:9:9-45
+	android:allowBackup
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:11:9-40
+activity#nitin.sangale.eagletokendisplay.MainActivity
+ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:12:9-15:20
+	android:label
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:14:13-45
+	android:name
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:13:13-41
+activity#nitin.sangale.eagletokendisplay.DeviceListActivity
+ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:16:9-20:20
+	android:screenOrientation
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:18:19-56
+	android:label
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:17:19-56
+	android:theme
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:19:19-83
+	android:name
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:16:19-53
+activity#nitin.sangale.eagletokendisplay.FirstActivity
+ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:21:9-30:20
+	android:label
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:23:13-57
+	android:theme
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:24:4-62
+	android:name
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:22:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:28:27-74
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:32:2-71
+	android:name
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:32:19-68
+uses-permission#android.permission.BLUETOOTH
+ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:33:5-68
+	android:name
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:33:22-65
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:34:5-68
+	android:name
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml:34:22-65
+uses-sdk
+INJECTED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml
+INJECTED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\81dd81e5c703bad09afb11f5b26dd975\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\81dd81e5c703bad09afb11f5b26dd975\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\63802336920108d782d141405b9408b2\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-fragment-24.2.1.aar\63802336920108d782d141405b9408b2\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\fc6a7723af9924832f567d6be649f0f8\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-media-compat-24.2.1.aar\fc6a7723af9924832f567d6be649f0f8\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\396fce9eb8e9ccd02393e9d4531e0cc4\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\396fce9eb8e9ccd02393e9d4531e0cc4\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\22acdeea9957a612ca4a771d0591e886\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\22acdeea9957a612ca4a771d0591e886\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\1952022d15f6fb143f2561f2835c4973\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\1952022d15f6fb143f2561f2835c4973\AndroidManifest.xml:21:5-23:58
+INJECTED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml
+INJECTED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:24.2.1] C:\Users\AMIEian\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\81dd81e5c703bad09afb11f5b26dd975\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml
+		ADDED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Study Material\Android Projects\EagleTokenDisplay\app\src\main\AndroidManifest.xml

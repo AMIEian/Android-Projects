@@ -1,0 +1,392 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="nitin.sangale.hanumanaradhana"
+4    android:versionCode="9"
+5    android:versionName="6.3" >
+6
+7    <uses-sdk
+7-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:7:5-47
+8        android:minSdkVersion="14"
+8-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:7:5-47
+9        android:targetSdkVersion="28" />
+9-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:7:15-44
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:45:5-67
+11-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:45:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:46:5-79
+12-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:46:22-76
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:47:5-80
+13-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:47:22-78
+14
+15    <!-- Optional permission for Analytics to run. -->
+16    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+16-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\7856ee6face15f0440f60414c260afde\play-services-analytics-12.0.1\AndroidManifest.xml:27:5-68
+16-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\7856ee6face15f0440f60414c260afde\play-services-analytics-12.0.1\AndroidManifest.xml:27:22-65
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.android.gms:play-services-gcm:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\e81b4db89a6217a1ac9bb38c401c05cf\play-services-gcm-12.0.1\AndroidManifest.xml:23:5-82
+17-->[com.google.android.gms:play-services-gcm:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\e81b4db89a6217a1ac9bb38c401c05cf\play-services-gcm-12.0.1\AndroidManifest.xml:23:22-79
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\5e5cf345620620ef90f438aac0daa412\play-services-maps-12.0.1\AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\5e5cf345620620ef90f438aac0daa412\play-services-maps-12.0.1\AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\5e5cf345620620ef90f438aac0daa412\play-services-maps-12.0.1\AndroidManifest.xml:28:9-32
+22
+23    <permission
+23-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\19aaf559283ca38c083e13a16e00a51d\firebase-iid-12.0.1\AndroidManifest.xml:28:5-30:47
+24        android:name="nitin.sangale.hanumanaradhana.permission.C2D_MESSAGE"
+24-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\19aaf559283ca38c083e13a16e00a51d\firebase-iid-12.0.1\AndroidManifest.xml:29:9-63
+25        android:protectionLevel="signature" />
+25-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\19aaf559283ca38c083e13a16e00a51d\firebase-iid-12.0.1\AndroidManifest.xml:30:9-44
+26
+27    <uses-permission android:name="nitin.sangale.hanumanaradhana.permission.C2D_MESSAGE" />
+27-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\19aaf559283ca38c083e13a16e00a51d\firebase-iid-12.0.1\AndroidManifest.xml:32:5-79
+27-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\19aaf559283ca38c083e13a16e00a51d\firebase-iid-12.0.1\AndroidManifest.xml:32:22-76
+28
+29    <application
+29-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:9:5-43:18
+30        android:allowBackup="true"
+30-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:10:9-35
+31        android:debuggable="true"
+32        android:icon="@drawable/ic_launcher"
+32-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:11:9-45
+33        android:label="@string/app_name"
+33-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:12:9-41
+34        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+34-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:13:9-73
+35        <activity
+35-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:14:9-23:20
+36            android:name="nitin.sangale.hanumanaradhana.MainActivity"
+36-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:15:13-70
+37            android:label="@string/app_name"
+37-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:16:13-45
+38            android:screenOrientation="landscape" >
+38-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:17:13-50
+39            <intent-filter>
+39-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:18:13-22:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:19:17-69
+40-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:19:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:21:17-77
+42-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:21:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:24:9-28:20
+46            android:name="nitin.sangale.hanumanaradhana.Index"
+46-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:25:13-63
+47            android:label="@string/title_activity_index"
+47-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:26:13-57
+48            android:screenOrientation="landscape" >
+48-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:27:13-50
+49        </activity>
+50        <activity
+50-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:29:9-33:20
+51            android:name="nitin.sangale.hanumanaradhana.Book"
+51-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:30:13-62
+52            android:label="@string/title_activity_book"
+52-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:31:13-56
+53            android:screenOrientation="landscape" >
+53-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:32:13-50
+54        </activity>
+55        <activity
+55-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:34:9-37:20
+56            android:name="nitin.sangale.hanumanaradhana.AboutActivity"
+56-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:35:13-71
+57            android:label="@string/title_activity_about"
+57-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:36:13-57
+58            android:screenOrientation="landscape" >
+58-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:36:58-95
+59        </activity>
+60        <activity
+60-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:38:9-39:130
+61            android:name="com.google.android.gms.ads.AdActivity"
+61-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:38:19-71
+62            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+62-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:39:19-128
+63            android:exported="false"
+63-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\3c41818762268bb4c25e1ab3fba7ac51\play-services-ads-lite-12.0.1\AndroidManifest.xml:32:13-37
+64            android:theme="@android:style/Theme.Translucent" />
+64-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\3c41818762268bb4c25e1ab3fba7ac51\play-services-ads-lite-12.0.1\AndroidManifest.xml:33:13-61
+65
+66        <meta-data
+66-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:41:9-42:76
+67            android:name="com.google.android.gms.version"
+67-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:41:20-65
+68            android:value="@integer/google_play_services_version" />
+68-->E:\Study Material\Android Projects\HanumanAradhana\app\src\main\AndroidManifest.xml:42:20-73
+69
+70        <receiver
+70-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\7856ee6face15f0440f60414c260afde\play-services-analytics-12.0.1\AndroidManifest.xml:30:9-34:20
+71            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+71-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\7856ee6face15f0440f60414c260afde\play-services-analytics-12.0.1\AndroidManifest.xml:31:13-78
+72            android:enabled="true"
+72-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\7856ee6face15f0440f60414c260afde\play-services-analytics-12.0.1\AndroidManifest.xml:32:13-35
+73            android:exported="false" >
+73-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\7856ee6face15f0440f60414c260afde\play-services-analytics-12.0.1\AndroidManifest.xml:33:13-37
+74        </receiver>
+75
+76        <service
+76-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\7856ee6face15f0440f60414c260afde\play-services-analytics-12.0.1\AndroidManifest.xml:36:9-39:40
+77            android:name="com.google.android.gms.analytics.AnalyticsService"
+77-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\7856ee6face15f0440f60414c260afde\play-services-analytics-12.0.1\AndroidManifest.xml:37:13-77
+78            android:enabled="true"
+78-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\7856ee6face15f0440f60414c260afde\play-services-analytics-12.0.1\AndroidManifest.xml:38:13-35
+79            android:exported="false" />
+79-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\7856ee6face15f0440f60414c260afde\play-services-analytics-12.0.1\AndroidManifest.xml:39:13-37
+80        <service
+80-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\7856ee6face15f0440f60414c260afde\play-services-analytics-12.0.1\AndroidManifest.xml:40:9-44:72
+81            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+81-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\7856ee6face15f0440f60414c260afde\play-services-analytics-12.0.1\AndroidManifest.xml:41:13-80
+82            android:enabled="true"
+82-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\7856ee6face15f0440f60414c260afde\play-services-analytics-12.0.1\AndroidManifest.xml:42:13-35
+83            android:exported="false"
+83-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\7856ee6face15f0440f60414c260afde\play-services-analytics-12.0.1\AndroidManifest.xml:43:13-37
+84            android:permission="android.permission.BIND_JOB_SERVICE" />
+84-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\7856ee6face15f0440f60414c260afde\play-services-analytics-12.0.1\AndroidManifest.xml:44:13-69
+85
+86        <activity
+86-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\326fec6a853622a762f60ed67b622e1c\play-services-appinvite-12.0.1\AndroidManifest.xml:25:9-34:20
+87            android:name="com.google.android.gms.appinvite.PreviewActivity"
+87-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\326fec6a853622a762f60ed67b622e1c\play-services-appinvite-12.0.1\AndroidManifest.xml:26:13-76
+88            android:exported="true"
+88-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\326fec6a853622a762f60ed67b622e1c\play-services-appinvite-12.0.1\AndroidManifest.xml:27:13-36
+89            android:theme="@style/Theme.AppInvite.Preview" >
+89-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\326fec6a853622a762f60ed67b622e1c\play-services-appinvite-12.0.1\AndroidManifest.xml:28:13-59
+90            <intent-filter>
+90-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\326fec6a853622a762f60ed67b622e1c\play-services-appinvite-12.0.1\AndroidManifest.xml:29:13-33:29
+91                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+91-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\326fec6a853622a762f60ed67b622e1c\play-services-appinvite-12.0.1\AndroidManifest.xml:30:17-90
+91-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\326fec6a853622a762f60ed67b622e1c\play-services-appinvite-12.0.1\AndroidManifest.xml:30:25-87
+92
+93                <category android:name="android.intent.category.DEFAULT" />
+93-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\326fec6a853622a762f60ed67b622e1c\play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
+93-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\326fec6a853622a762f60ed67b622e1c\play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
+94            </intent-filter>
+95        </activity>
+96        <activity
+96-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\e186a4a291388c0dbe1bb4f04e52c9aa\play-services-auth-12.0.1\AndroidManifest.xml:23:9-27:75
+97            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+97-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\e186a4a291388c0dbe1bb4f04e52c9aa\play-services-auth-12.0.1\AndroidManifest.xml:24:13-93
+98            android:excludeFromRecents="true"
+98-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\e186a4a291388c0dbe1bb4f04e52c9aa\play-services-auth-12.0.1\AndroidManifest.xml:25:13-46
+99            android:exported="false"
+99-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\e186a4a291388c0dbe1bb4f04e52c9aa\play-services-auth-12.0.1\AndroidManifest.xml:26:13-37
+100            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+100-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\e186a4a291388c0dbe1bb4f04e52c9aa\play-services-auth-12.0.1\AndroidManifest.xml:27:13-72
+101        <!--
+102            Service handling Google Sign-In user revocation. For apps that do not integrate with
+103            Google Sign-In, this service will never be started.
+104        -->
+105        <service
+105-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\e186a4a291388c0dbe1bb4f04e52c9aa\play-services-auth-12.0.1\AndroidManifest.xml:33:9-36:110
+106            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+106-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\e186a4a291388c0dbe1bb4f04e52c9aa\play-services-auth-12.0.1\AndroidManifest.xml:34:13-89
+107            android:exported="true"
+107-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\e186a4a291388c0dbe1bb4f04e52c9aa\play-services-auth-12.0.1\AndroidManifest.xml:35:13-36
+108            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+108-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\e186a4a291388c0dbe1bb4f04e52c9aa\play-services-auth-12.0.1\AndroidManifest.xml:36:13-107
+109
+110        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+110-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\6f7c71513acc13418509d27283c43289\play-services-cast-framework-12.0.1\AndroidManifest.xml:8:9-100
+110-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\6f7c71513acc13418509d27283c43289\play-services-cast-framework-12.0.1\AndroidManifest.xml:8:19-97
+111
+112        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+112-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\6f7c71513acc13418509d27283c43289\play-services-cast-framework-12.0.1\AndroidManifest.xml:10:9-104
+112-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\6f7c71513acc13418509d27283c43289\play-services-cast-framework-12.0.1\AndroidManifest.xml:10:18-101
+113        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+113-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\6f7c71513acc13418509d27283c43289\play-services-cast-framework-12.0.1\AndroidManifest.xml:11:9-93
+113-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\6f7c71513acc13418509d27283c43289\play-services-cast-framework-12.0.1\AndroidManifest.xml:11:18-90
+114
+115        <activity
+115-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\086a618a4a55fc85b4a915419465bad8\firebase-auth-12.0.1\AndroidManifest.xml:23:9-29:75
+116            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+116-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\086a618a4a55fc85b4a915419465bad8\firebase-auth-12.0.1\AndroidManifest.xml:24:13-85
+117            android:excludeFromRecents="true"
+117-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\086a618a4a55fc85b4a915419465bad8\firebase-auth-12.0.1\AndroidManifest.xml:25:13-46
+118            android:exported="true"
+118-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\086a618a4a55fc85b4a915419465bad8\firebase-auth-12.0.1\AndroidManifest.xml:26:13-36
+119            android:launchMode="singleInstance"
+119-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\086a618a4a55fc85b4a915419465bad8\firebase-auth-12.0.1\AndroidManifest.xml:27:13-48
+120            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+120-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\086a618a4a55fc85b4a915419465bad8\firebase-auth-12.0.1\AndroidManifest.xml:28:13-102
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+121-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\086a618a4a55fc85b4a915419465bad8\firebase-auth-12.0.1\AndroidManifest.xml:29:13-72
+122        <activity
+122-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\17c4f2f7b4d1f7b3720420032c7b1d76\play-services-base-12.0.1\AndroidManifest.xml:23:9-26:75
+123            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+123-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\17c4f2f7b4d1f7b3720420032c7b1d76\play-services-base-12.0.1\AndroidManifest.xml:24:13-79
+124            android:exported="false"
+124-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\17c4f2f7b4d1f7b3720420032c7b1d76\play-services-base-12.0.1\AndroidManifest.xml:25:13-37
+125            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+125-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\17c4f2f7b4d1f7b3720420032c7b1d76\play-services-base-12.0.1\AndroidManifest.xml:26:13-72
+126        <!--
+127             FirebaseMessagingService performs security checks at runtime,
+128             no need for explicit permissions despite exported="true"
+129        -->
+130        <service
+130-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bef63aa44dca95db227abfeb19fbeecb\firebase-messaging-12.0.1\AndroidManifest.xml:28:9-34:19
+131            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+131-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bef63aa44dca95db227abfeb19fbeecb\firebase-messaging-12.0.1\AndroidManifest.xml:29:13-82
+132            android:exported="true" >
+132-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bef63aa44dca95db227abfeb19fbeecb\firebase-messaging-12.0.1\AndroidManifest.xml:30:13-36
+133            <intent-filter android:priority="-500" >
+133-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bef63aa44dca95db227abfeb19fbeecb\firebase-messaging-12.0.1\AndroidManifest.xml:31:13-33:29
+133-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bef63aa44dca95db227abfeb19fbeecb\firebase-messaging-12.0.1\AndroidManifest.xml:31:28-51
+134                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+134-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bef63aa44dca95db227abfeb19fbeecb\firebase-messaging-12.0.1\AndroidManifest.xml:32:17-78
+134-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bef63aa44dca95db227abfeb19fbeecb\firebase-messaging-12.0.1\AndroidManifest.xml:32:25-75
+135            </intent-filter>
+136        </service>
+137        <service
+137-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bba82590b2a84b01e547d4b1cf946df9\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:27:9-30:40
+138            android:name="com.google.android.gms.tagmanager.TagManagerService"
+138-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bba82590b2a84b01e547d4b1cf946df9\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:28:13-79
+139            android:enabled="true"
+139-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bba82590b2a84b01e547d4b1cf946df9\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:29:13-35
+140            android:exported="false" />
+140-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bba82590b2a84b01e547d4b1cf946df9\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:30:13-37
+141
+142        <activity
+142-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bba82590b2a84b01e547d4b1cf946df9\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:32:9-44:20
+143            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+143-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bba82590b2a84b01e547d4b1cf946df9\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:33:13-87
+144            android:exported="true"
+144-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bba82590b2a84b01e547d4b1cf946df9\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:34:13-36
+145            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+145-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bba82590b2a84b01e547d4b1cf946df9\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:35:13-37
+146            <intent-filter>
+146-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bba82590b2a84b01e547d4b1cf946df9\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:36:13-43:29
+147                <data android:scheme="tagmanager.c.nitin.sangale.hanumanaradhana" />
+147-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bba82590b2a84b01e547d4b1cf946df9\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:17-72
+147-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bba82590b2a84b01e547d4b1cf946df9\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:23-69
+148
+149                <action android:name="android.intent.action.VIEW" />
+149-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bba82590b2a84b01e547d4b1cf946df9\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:17-69
+149-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bba82590b2a84b01e547d4b1cf946df9\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:25-66
+150
+151                <category android:name="android.intent.category.DEFAULT" />
+151-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\326fec6a853622a762f60ed67b622e1c\play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
+151-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\326fec6a853622a762f60ed67b622e1c\play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
+152                <category android:name="android.intent.category.BROWSABLE" />
+152-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bba82590b2a84b01e547d4b1cf946df9\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:17-78
+152-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\bba82590b2a84b01e547d4b1cf946df9\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:27-75
+153            </intent-filter>
+154        </activity>
+155
+156        <receiver
+156-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\8f7c546bfc330771d1fade96e2e0c79c\firebase-analytics-12.0.1\AndroidManifest.xml:28:9-32:20
+157            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+157-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\8f7c546bfc330771d1fade96e2e0c79c\firebase-analytics-12.0.1\AndroidManifest.xml:29:13-85
+158            android:enabled="true"
+158-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\8f7c546bfc330771d1fade96e2e0c79c\firebase-analytics-12.0.1\AndroidManifest.xml:30:13-35
+159            android:exported="false" >
+159-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\8f7c546bfc330771d1fade96e2e0c79c\firebase-analytics-12.0.1\AndroidManifest.xml:31:13-37
+160        </receiver>
+161        <receiver
+161-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\8f7c546bfc330771d1fade96e2e0c79c\firebase-analytics-12.0.1\AndroidManifest.xml:33:9-41:20
+162            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+162-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\8f7c546bfc330771d1fade96e2e0c79c\firebase-analytics-12.0.1\AndroidManifest.xml:34:13-100
+163            android:enabled="true"
+163-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\8f7c546bfc330771d1fade96e2e0c79c\firebase-analytics-12.0.1\AndroidManifest.xml:35:13-35
+164            android:exported="true"
+164-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\8f7c546bfc330771d1fade96e2e0c79c\firebase-analytics-12.0.1\AndroidManifest.xml:36:13-36
+165            android:permission="android.permission.INSTALL_PACKAGES" >
+165-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\8f7c546bfc330771d1fade96e2e0c79c\firebase-analytics-12.0.1\AndroidManifest.xml:37:13-69
+166            <intent-filter>
+166-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\8f7c546bfc330771d1fade96e2e0c79c\firebase-analytics-12.0.1\AndroidManifest.xml:38:13-40:29
+167                <action android:name="com.android.vending.INSTALL_REFERRER" />
+167-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\8f7c546bfc330771d1fade96e2e0c79c\firebase-analytics-12.0.1\AndroidManifest.xml:39:17-79
+167-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\8f7c546bfc330771d1fade96e2e0c79c\firebase-analytics-12.0.1\AndroidManifest.xml:39:25-76
+168            </intent-filter>
+169        </receiver>
+170
+171        <service
+171-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\8f7c546bfc330771d1fade96e2e0c79c\firebase-analytics-12.0.1\AndroidManifest.xml:43:9-46:40
+172            android:name="com.google.android.gms.measurement.AppMeasurementService"
+172-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\8f7c546bfc330771d1fade96e2e0c79c\firebase-analytics-12.0.1\AndroidManifest.xml:44:13-84
+173            android:enabled="true"
+173-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\8f7c546bfc330771d1fade96e2e0c79c\firebase-analytics-12.0.1\AndroidManifest.xml:45:13-35
+174            android:exported="false" />
+174-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\8f7c546bfc330771d1fade96e2e0c79c\firebase-analytics-12.0.1\AndroidManifest.xml:46:13-37
+175        <service
+175-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\8f7c546bfc330771d1fade96e2e0c79c\firebase-analytics-12.0.1\AndroidManifest.xml:47:9-51:72
+176            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+176-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\8f7c546bfc330771d1fade96e2e0c79c\firebase-analytics-12.0.1\AndroidManifest.xml:48:13-87
+177            android:enabled="true"
+177-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\8f7c546bfc330771d1fade96e2e0c79c\firebase-analytics-12.0.1\AndroidManifest.xml:49:13-35
+178            android:exported="false"
+178-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\8f7c546bfc330771d1fade96e2e0c79c\firebase-analytics-12.0.1\AndroidManifest.xml:50:13-37
+179            android:permission="android.permission.BIND_JOB_SERVICE" />
+179-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\8f7c546bfc330771d1fade96e2e0c79c\firebase-analytics-12.0.1\AndroidManifest.xml:51:13-69
+180
+181        <receiver
+181-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\19aaf559283ca38c083e13a16e00a51d\firebase-iid-12.0.1\AndroidManifest.xml:35:9-44:20
+182            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+182-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\19aaf559283ca38c083e13a16e00a51d\firebase-iid-12.0.1\AndroidManifest.xml:36:13-78
+183            android:exported="true"
+183-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\19aaf559283ca38c083e13a16e00a51d\firebase-iid-12.0.1\AndroidManifest.xml:37:13-36
+184            android:permission="com.google.android.c2dm.permission.SEND" >
+184-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\19aaf559283ca38c083e13a16e00a51d\firebase-iid-12.0.1\AndroidManifest.xml:38:13-73
+185            <intent-filter>
+185-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\19aaf559283ca38c083e13a16e00a51d\firebase-iid-12.0.1\AndroidManifest.xml:39:13-43:29
+186                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+186-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\19aaf559283ca38c083e13a16e00a51d\firebase-iid-12.0.1\AndroidManifest.xml:40:17-81
+186-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\19aaf559283ca38c083e13a16e00a51d\firebase-iid-12.0.1\AndroidManifest.xml:40:25-78
+187
+188                <category android:name="nitin.sangale.hanumanaradhana" />
+188-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\19aaf559283ca38c083e13a16e00a51d\firebase-iid-12.0.1\AndroidManifest.xml:42:17-61
+188-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\19aaf559283ca38c083e13a16e00a51d\firebase-iid-12.0.1\AndroidManifest.xml:42:27-58
+189            </intent-filter>
+190        </receiver>
+191        <!--
+192             FirebaseInstanceIdService performs security checks at runtime,
+193             no need for explicit permissions despite exported="true"
+194        -->
+195        <service
+195-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\19aaf559283ca38c083e13a16e00a51d\firebase-iid-12.0.1\AndroidManifest.xml:50:9-56:19
+196            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+196-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\19aaf559283ca38c083e13a16e00a51d\firebase-iid-12.0.1\AndroidManifest.xml:51:13-77
+197            android:exported="true" >
+197-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\19aaf559283ca38c083e13a16e00a51d\firebase-iid-12.0.1\AndroidManifest.xml:52:13-36
+198            <intent-filter android:priority="-500" >
+198-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\19aaf559283ca38c083e13a16e00a51d\firebase-iid-12.0.1\AndroidManifest.xml:53:13-55:29
+198-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\19aaf559283ca38c083e13a16e00a51d\firebase-iid-12.0.1\AndroidManifest.xml:53:28-51
+199                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+199-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\19aaf559283ca38c083e13a16e00a51d\firebase-iid-12.0.1\AndroidManifest.xml:54:17-80
+199-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\19aaf559283ca38c083e13a16e00a51d\firebase-iid-12.0.1\AndroidManifest.xml:54:25-77
+200            </intent-filter>
+201        </service>
+202
+203        <provider
+203-->[com.google.firebase:firebase-common:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\a92410f2f88b91e9d2cccb14f9ff1c68\firebase-common-12.0.1\AndroidManifest.xml:8:9-12:39
+204            android:name="com.google.firebase.provider.FirebaseInitProvider"
+204-->[com.google.firebase:firebase-common:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\a92410f2f88b91e9d2cccb14f9ff1c68\firebase-common-12.0.1\AndroidManifest.xml:9:13-77
+205            android:authorities="nitin.sangale.hanumanaradhana.firebaseinitprovider"
+205-->[com.google.firebase:firebase-common:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\a92410f2f88b91e9d2cccb14f9ff1c68\firebase-common-12.0.1\AndroidManifest.xml:10:13-72
+206            android:exported="false"
+206-->[com.google.firebase:firebase-common:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\a92410f2f88b91e9d2cccb14f9ff1c68\firebase-common-12.0.1\AndroidManifest.xml:11:13-37
+207            android:initOrder="100" />
+207-->[com.google.firebase:firebase-common:12.0.1] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\a92410f2f88b91e9d2cccb14f9ff1c68\firebase-common-12.0.1\AndroidManifest.xml:12:13-36
+208
+209        <meta-data
+209-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\b3e4330506facb28d1c94b73b31b2f02\mediarouter-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+210            android:name="android.support.VERSION"
+210-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\b3e4330506facb28d1c94b73b31b2f02\mediarouter-v7-26.1.0\AndroidManifest.xml:24:13-51
+211            android:value="26.1.0" />
+211-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\b3e4330506facb28d1c94b73b31b2f02\mediarouter-v7-26.1.0\AndroidManifest.xml:25:13-35
+212        <meta-data
+212-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\d0f6449185399ce77e6ff49656abaac3\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+213            android:name="android.arch.lifecycle.VERSION"
+213-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\d0f6449185399ce77e6ff49656abaac3\runtime-1.0.0\AndroidManifest.xml:26:13-58
+214            android:value="27.0.0-SNAPSHOT" />
+214-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\AMIEian\.gradle\caches\transforms-2\files-2.1\d0f6449185399ce77e6ff49656abaac3\runtime-1.0.0\AndroidManifest.xml:27:13-44
+215    </application>
+216
+217</manifest>

@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+repositories {
+    maven { url 'https://maven.google.com' }
+}
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        applicationId "nitin.sangale.androidgames.egg"
+        minSdkVersion 14
+        targetSdkVersion 28
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.google.android.gms:play-services:+'
+}

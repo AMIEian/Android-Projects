@@ -1,0 +1,4 @@
+#Fri Jul 30 16:38:28 IST 2021
+base.0=D\:\\Study Material\\Android Projects\\ShreeSwamipath\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

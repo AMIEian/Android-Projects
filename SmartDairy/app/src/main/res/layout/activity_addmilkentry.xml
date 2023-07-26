@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/expandable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF"
+                android:orientation="vertical" >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="4dp"
+                    app:cardBackgroundColor="@color/common_google_signin_btn_text_light_disabled"
+                    android:layout_margin="5dp"
+                    android:padding="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Date"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000"/>
+
+                        <TextView
+                            android:id="@+id/txtdate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Date"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:layout_marginLeft="15dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorPrimary"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="4dp"
+                    android:layout_margin="5dp"
+                    app:cardBackgroundColor="@color/common_google_signin_btn_text_light_disabled"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+                        <RadioGroup
+                            android:id="@+id/grptime"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="2"
+
+                            android:soundEffectsEnabled="true"
+                            android:layout_margin="10dp">
+                            <RadioButton
+                                android:id="@+id/rdmorning"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Morning"
+                                android:checked="true"
+                                android:layout_weight="1"
+                                android:textColor="@color/colorPrimary"/>
+                            <RadioButton
+                                android:id="@+id/rdevening"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Evening"
+                                android:layout_weight="1"
+                                android:textColor="@color/colorPrimary"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="4dp"
+                    android:layout_margin="5dp"
+
+                    app:cardBackgroundColor="@color/common_google_signin_btn_text_light_disabled"
+                    android:padding="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <RadioGroup
+                            android:id="@+id/grpsendsms"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:soundEffectsEnabled="true"
+                            android:weightSum="2"
+                            android:layout_margin="10dp">
+                            <RadioButton
+                                android:id="@+id/id_mobile"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Send Watsapp"
+                                android:layout_weight="1"
+                                android:textColor="@color/colorPrimary"/>
+                            <RadioButton
+                                android:id="@+id/id_web"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="No Watsapp"
+                                android:checked="true"
+                                android:layout_weight="1"
+                                android:textColor="@color/colorPrimary"/>
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="4dp"
+                    android:layout_margin="5dp"
+                    app:cardBackgroundColor="@color/common_google_signin_btn_text_light_disabled"
+                    android:padding="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <RadioGroup
+                            android:id="@+id/grpanimal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="2"
+                            android:soundEffectsEnabled="true"
+                            android:layout_margin="10dp">
+                            <RadioButton
+                                android:id="@+id/rdcow"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Cow"
+                                android:checked="true"
+                                android:layout_weight="1"
+                                android:textColor="@color/colorPrimary"/>
+                            <RadioButton
+                                android:id="@+id/rdbuffellow"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Buffalo"
+                                android:layout_weight="1"
+                                android:textColor="@color/colorPrimary"/>
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="4dp"
+                    android:layout_margin="5dp"
+                    app:cardBackgroundColor="@color/common_google_signin_btn_text_light_disabled"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+                        <RadioGroup
+                            android:id="@+id/collection_method"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="2"
+
+                            android:soundEffectsEnabled="true"
+                            android:layout_margin="10dp">
+                            <RadioButton
+                                android:id="@+id/id_byclr"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="FAT+CLR"
+                                android:checked="true"
+                                android:layout_weight="1"
+                                android:textColor="@color/colorPrimary"/>
+                            <RadioButton
+                                android:id="@+id/id_bysnf"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="FAT+SNF"
+                                android:layout_weight="1"
+                                android:textColor="@color/colorPrimary"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="4dp"
+                    android:layout_margin="5dp"
+                    app:cardBackgroundColor="@color/common_google_signin_btn_text_light_disabled"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+                        <RadioGroup
+                            android:id="@+id/grp_prev_quality_method"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="3"
+
+                            android:soundEffectsEnabled="true"
+                            android:layout_margin="10dp">
+                            <RadioButton
+                                android:id="@+id/id_NA"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="NA"
+                                android:checked="true"
+                                android:layout_weight="1"
+                                android:textColor="@color/colorPrimary"/>
+                            <RadioButton
+                                android:id="@+id/id_prevfatsnf"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Prev FAT-SNF"
+                                android:checked="false"
+                                android:layout_weight="1"
+                                android:textColor="@color/colorPrimary"/>
+                            <RadioButton
+                                android:id="@+id/id_avgfatsnf"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="10 Day Average"
+                                android:layout_weight="1"
+                                android:textColor="@color/colorPrimary"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:weightSum="5"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CustCode:"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:id="@+id/etxcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:weightSum="5"
+                android:padding="10dp">
+                <TextView
+                    android:id="@+id/txtcustcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CustName"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:layout_weight="3"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Liter:"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:id="@+id/etxlit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:inputType="numberDecimal"
+                    android:textStyle="bold"
+                    android:hint="Liter"
+                    android:textColor="@color/colorPrimary"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fat:"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:id="@+id/etxfat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:hint="FAT"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/colorPrimary"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:weightSum="5"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CLR:"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:id="@+id/etxclr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:inputType="numberDecimal"
+                    android:textStyle="bold"
+                    android:hint="CLR"
+                    android:textColor="@color/colorPrimary"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SNF:"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:id="@+id/etxsnf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:inputType="numberDecimal"
+                    android:textStyle="bold"
+                    android:hint="SNF"
+                    android:textColor="@color/colorPrimary"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonrate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:text="Get Rate"
+                android:textColor="#fff"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rate:"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:id="@+id/etxrate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:hint="Rate"
+                    android:textColor="@color/colorPrimary"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:weightSum="5"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="Amount:"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etxamount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="30sp"
+                    android:hint="Amount"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paid Amt:"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:id="@+id/etxpuramount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:inputType="numberDecimal"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="Save"
+                android:textAllCaps="false"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

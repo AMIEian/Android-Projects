@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hanuman Aradhana</string>
+    <string name="action_settings">About</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_index">Index</string>
+    <string name="title_activity_book">Book</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+</resources>

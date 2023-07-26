@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context=".ShowPashukhadyaActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="4"
+            android:orientation="vertical">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView_dash1221"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id_vsidairysangamner">
+        </com.google.android.gms.ads.AdView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="0dp"
+                android:id="@+id/displayname"
+                android:layout_weight="0.2"
+                android:text="Pashukhadya / Medical / Kirana / Vastu Bhandar"
+                android:textAlignment="center"
+                android:textSize="22sp" />
+            <WebView
+                android:id="@+id/webview"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+               android:layout_weight="3.8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+</android.support.constraint.ConstraintLayout>
